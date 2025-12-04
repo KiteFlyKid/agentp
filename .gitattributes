@@ -1,0 +1,2 @@
+*.xml filter=lfs diff=lfs merge=lfs -text
+ICCBot_output/**/*.xml filter=lfs diff=lfs merge=lfs -text

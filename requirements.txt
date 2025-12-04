@@ -1,0 +1,4 @@
+mitmproxy==12.1.2
+openai==1.102.0
+networkx==3.5
+droidrun==0.3.5

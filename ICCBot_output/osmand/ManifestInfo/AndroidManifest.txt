@@ -1,0 +1,2076 @@
+manifest
+- compileSdkVersionCodename: 13
+- installLocation: 0
+- package: net.osmand
+- platformBuildVersionName: 13
+- compileSdkVersion: 33
+- versionName: 4.6.13
+- platformBuildVersionCode: 33
+- versionCode: 4613
+	uses-sdk
+	- minSdkVersion: 23
+	- targetSdkVersion: 33
+	uses-permission
+	- name: android.permission.ACCESS_FINE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_COARSE_LOCATION
+	uses-permission
+	- name: android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.STORAGE
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.ACCESS_WIFI_STATE
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.CAMERA
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.RECORD_AUDIO
+	uses-permission
+	- name: android.permission.FOREGROUND_SERVICE
+	uses-permission
+	- name: android.permission.POST_NOTIFICATIONS
+	uses-permission
+	- name: android.permission.MODIFY_AUDIO_SETTINGS
+	uses-permission
+	- name: androidx.car.app.NAVIGATION_TEMPLATES
+	uses-permission
+	- name: androidx.car.app.ACCESS_SURFACE
+	uses-permission
+	- name: android.permission.SCHEDULE_EXACT_ALARM
+	uses-permission
+	- name: android.permission.BLUETOOTH_SCAN
+	- usesPermissionFlags: 65536
+	uses-permission
+	- name: android.permission.BLUETOOTH_CONNECT
+	uses-permission
+	- name: android.permission.BLUETOOTH
+	- maxSdkVersion: 30
+	uses-permission
+	- name: android.permission.BLUETOOTH_ADMIN
+	- maxSdkVersion: 30
+	uses-feature
+	- name: android.hardware.camera
+	- required: false
+	uses-feature
+	- name: android.hardware.camera.autofocus
+	- required: false
+	uses-feature
+	- name: android.hardware.microphone
+	- required: false
+	uses-feature
+	- name: android.hardware.wifi
+	- required: false
+	uses-feature
+	- name: android.hardware.location
+	- required: false
+	uses-feature
+	- name: android.hardware.location.network
+	- required: false
+	uses-feature
+	- name: android.hardware.location.gps
+	- required: false
+	uses-feature
+	- name: android.hardware.sensor.light
+	- required: false
+	uses-feature
+	- name: android.hardware.sensor.compass
+	- required: false
+	uses-feature
+	- name: android.hardware.sensor.accelerometer
+	- required: false
+	uses-feature
+	- name: android.hardware.sensor.gyroscope
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-feature
+	- name: android.hardware.bluetooth
+	- required: false
+	uses-feature
+	- name: com.sec.feature.spen_usp
+	- required: false
+	supports-screens
+	- anyDensity: true
+	- largeScreens: true
+	- xlargeScreens: true
+	- normalScreens: true
+	- smallScreens: true
+	- resizeable: true
+	queries
+		package
+		- name: net.osmand.srtmPlugin
+		package
+		- name: net.osmand.srtmPlugin.paid
+		package
+		- name: net.osmand.skimapsPlugin
+		package
+		- name: net.osmand.nauticalPlugin
+		package
+		- name: btools.routingapp
+		package
+		- name: com.mapillary.app
+		package
+		- name: org.bruxo.gpsconnected
+		package
+		- name: com.eclipsim.gpsstatus2
+		package
+		- name: com.chartcross.gpstest
+		package
+		- name: com.chartcross.gpstestplus
+		package
+		- name: com.android.gpstest
+		package
+		- name: com.vonglasow.michael.satstat
+		package
+		- name: com.android.gpstest.osmdroid
+		package
+		- name: com.dsi.ant.plugins.antplus
+		intent
+			action
+			- name: android.intent.action.TTS_SERVICE
+		provider
+		- name: androidx.car.app.connection.provider
+		- authorities: androidx.car.app.connection
+	uses-permission
+	- name: com.android.vending.BILLING
+	uses-feature
+	- required: true
+	- glEsVersion: 131072
+	permission
+	- name: net.osmand.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+	- protectionLevel: 2
+	uses-permission
+	- name: net.osmand.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+	application
+	- usesCleartextTraffic: true
+	- allowBackup: true
+	- extractNativeLibs: false
+	- memtagMode: 0
+	- icon: 2131689476
+	- hasFragileUserData: true
+	- configChanges: 4
+	- restoreAnyVersion: true
+	- label: 2131820851
+	- largeHeap: true
+	- requestLegacyExternalStorage: true
+	- backupAgent: net.osmand.plus.helpers.OsmandBackupAgent
+	- supportsRtl: true
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- localeConfig: 2132017168
+	- name: net.osmand.plus.OsmandApplication
+	- theme: 2131886420
+		meta-data
+		- name: com.facebook.sdk.ApplicationId
+		- value: fb2057524931189530
+		activity
+		- exported: true
+		- windowSoftInputMode: 16
+		- screenOrientation: -1
+		- name: net.osmand.plus.activities.MapActivity
+		- launchMode: 2
+		- configChanges: 512
+		- theme: 2131886395
+		- label: 2131820851
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- host: *
+				- mimeType: binary/octet-stream
+				- scheme: content
+				data
+				- host: *
+				- mimeType: application/octet-stream
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.MULTIWINDOW_LAUNCHER
+			intent-filter
+			- autoVerify: true
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: osmand.net
+				data
+				- pathPrefix: /go
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+			- autoVerify: true
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: osmand.net
+				data
+				- pathPrefix: /premium
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: osmand.net
+				data
+				- pathPrefix: /map
+				data
+				- pathPrefix: /go
+				data
+				- pathPrefix: /add-tile-source
+				data
+				- pathPrefix: /open-gpx
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.APP_MAPS
+				category
+				- name: android.intent.category.CAR_MODE
+				category
+				- name: android.intent.category.CAR_DOCK
+				category
+				- name: android.intent.category.DESK_DOCK
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.gpx
+				data
+				- pathPattern: /.*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.gpx.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.gpx
+				data
+				- pathPattern: /.*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.gpx
+				data
+				- pathPattern: /.*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.gpx.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.gpx.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /*.kml
+				data
+				- pathPattern: /.*\.kml
+				data
+				- pathPattern: /.*\..*\.kml
+				data
+				- pathPattern: /.*\..*\..*\.kml
+				data
+				- pathPattern: /.*\..*\..*\..*\.kml
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.kml
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.kmz
+				data
+				- pathPattern: /.*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.kmz
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.kmz
+				data
+				- pathPattern: /.*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\..*\.kmz
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.kmz
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.obf
+				data
+				- pathPattern: /.*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.obf
+				data
+				- pathPattern: /.*\.obf.zip
+				data
+				- pathPattern: /.*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.obf.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.obf
+				data
+				- pathPattern: /.*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\..*\.obf
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.obf
+				data
+				- pathPattern: /.*\.obf.zip
+				data
+				- pathPattern: /.*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.obf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.obf.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.sqlitedb
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /*.sqlitedb
+				data
+				- pathPattern: /.*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\..*\.sqlitedb
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.sqlitedb
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.sqlite
+				data
+				- pathPattern: /.*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.sqlite
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /*.sqlite
+				data
+				- pathPattern: /.*\.sqlite
+				data
+				- pathPattern: /.*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\..*\.sqlite
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.sqlite
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.osf
+				data
+				- pathPattern: /.*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.osf
+				data
+				- pathPattern: /.*\.osf.zip
+				data
+				- pathPattern: /.*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.osf.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.osf
+				data
+				- pathPattern: /.*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\..*\.osf
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.osf
+				data
+				- pathPattern: /.*\.osf.zip
+				data
+				- pathPattern: /.*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\.osf.zip
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.osf.zip
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.xml
+				data
+				- pathPattern: /.*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.xml
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- scheme: data
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.xml
+				data
+				- pathPattern: /.*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\..*\.xml
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.xml
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.wpt.chart
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\.wpt.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.wpt.chart
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- pathPattern: /.*\.3d.chart
+				data
+				- pathPattern: /.*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.3d.chart
+			intent-filter
+			- priority: 50
+			- label: 2131820851
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: file
+				data
+				- scheme: content
+				data
+				- host: *
+				data
+				- mimeType: */*
+				data
+				- pathPattern: /.*\.3d.chart
+				data
+				- pathPattern: /.*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\.3d.chart
+				data
+				- pathPattern: /.*\..*\..*\..*\..*\.3d.chart
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: application/gpx+xml
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: google.navigation
+				data
+				- scheme: osmand.navigation
+			intent-filter
+				data
+				- scheme: osmand.api
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/plain
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: osmand-oauth
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: opr-oauth
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: osmand.shortcuts
+		service
+		- exported: true
+		- process: net.osmand
+		- stopWithTask: false
+		- name: net.osmand.plus.NavigationService
+		- label: 2131828298
+		- foregroundServiceType: 8
+			intent-filter
+				action
+				- name: net.osmand.plus.NavigationService
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: net.osmand.fileprovider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2132017174
+		meta-data
+		- name: com.google.android.backup.api_key
+		- value: AEdPqrEAAAAIqF3tNGT66etVBn_vgzpfAY1wmIzKV1Ss6Ku-2A
+		meta-data
+		- name: com.sec.android.support.multiwindow
+		- value: true
+		meta-data
+		- name: com.sec.android.multiwindow.DEFAULT_SIZE_W
+		- resource: 2131165273
+		- value: 
+		meta-data
+		- name: com.sec.android.multiwindow.DEFAULT_SIZE_H
+		- resource: 2131165272
+		- value: 
+		meta-data
+		- name: com.sec.android.multiwindow.MINIMUM_SIZE_W
+		- resource: 2131165275
+		- value: 
+		meta-data
+		- name: com.sec.android.multiwindow.MINIMUM_SIZE_H
+		- resource: 2131165274
+		- value: 
+		meta-data
+		- name: com.sec.minimode.icon.portrait.normal
+		- resource: 2131689475
+		- value: 
+		meta-data
+		- name: com.sec.minimode.icon.landscape.normal
+		- resource: 2131689475
+		- value: 
+		meta-data
+		- name: android.webkit.WebView.MetricsOptOut
+		- value: true
+		receiver
+		- name: net.osmand.plus.notifications.NotificationDismissReceiver
+		receiver
+		- name: net.osmand.plus.liveupdates.LiveUpdatesAlarmReceiver
+		receiver
+		- exported: true
+		- name: net.osmand.plus.plugins.audionotes.MediaRemoteControlReceiver
+			intent-filter
+				action
+				- name: android.intent.action.CAMERA_BUTTON
+		activity
+		- name: net.osmand.plus.help.HelpActivity
+		activity
+		- name: net.osmand.plus.myplaces.MyPlacesActivity
+		- windowSoftInputMode: 32
+		activity
+		- name: net.osmand.plus.activities.ContributionVersionActivity
+		- configChanges: 160
+		- label: 2131821318
+		activity
+		- name: net.osmand.plus.activities.PrintDialogActivity
+		activity
+		- exported: true
+		- name: net.osmand.plus.activities.search.GeoIntentActivity
+		- label: 2131820851
+			intent-filter
+				data
+				- scheme: osmand.geo
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				data
+				- scheme: geo
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: maps.yandex.ru
+				data
+				- host: maps.yandex.com
+				data
+				- host: www.openstreetmap.org
+				- path: /
+				data
+				- host: www.openstreetmap.org
+				- pathPrefix: /query
+				data
+				- host: www.openstreetmap.org
+				- pathPrefix: /go
+				data
+				- host: www.openstreetmap.org
+				- pathPrefix: /search
+				data
+				- host: www.openstreetmap.org
+				- pathPrefix: /directions
+				data
+				- host: openstreetmap.org
+				- path: /
+				data
+				- host: openstreetmap.org
+				- pathPrefix: /query
+				data
+				- host: openstreetmap.org
+				- pathPrefix: /go
+				data
+				- host: openstreetmap.org
+				- pathPrefix: /search
+				data
+				- host: openstreetmap.org
+				- pathPrefix: /directions
+				data
+				- host: osm.org
+				data
+				- host: map.baidu.cn
+				data
+				- host: map.baidu.com
+				data
+				- host: wb.amap.com
+				data
+				- host: www.amap.com
+				data
+				- host: here.com
+				data
+				- host: www.here.com
+				data
+				- host: share.here.com
+				data
+				- host: map.wap.qq.com
+				data
+				- host: map.qq.com
+				data
+				- host: maps.apple.com
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+				data
+				- scheme: https
+				- host: ge0.me
+				data
+				- scheme: http
+				- host: ge0.me
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+				data
+				- host: openstreetmap.de
+				- scheme: http
+				- pathPrefix: /karte
+				data
+				- host: openstreetmap.de
+				- scheme: https
+				- pathPrefix: /karte
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+			intent-filter
+				data
+				- host: download.osmand.net
+				- scheme: http
+				- pathPrefix: /go
+				data
+				- host: download.osmand.net
+				- scheme: http
+				- pathPrefix: go
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.APP_MAPS
+				category
+				- name: android.intent.category.CAR_MODE
+				category
+				- name: android.intent.category.CAR_DOCK
+				category
+				- name: android.intent.category.DESK_DOCK
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: maps.google.ac
+				data
+				- host: maps.google.ad
+				data
+				- host: maps.google.ae
+				data
+				- host: maps.google.al
+				data
+				- host: maps.google.am
+				data
+				- host: maps.google.as
+				data
+				- host: maps.google.at
+				data
+				- host: maps.google.az
+				data
+				- host: maps.google.ba
+				data
+				- host: maps.google.be
+				data
+				- host: maps.google.bf
+				data
+				- host: maps.google.bg
+				data
+				- host: maps.google.bi
+				data
+				- host: maps.google.bj
+				data
+				- host: maps.google.bs
+				data
+				- host: maps.google.bt
+				data
+				- host: maps.google.by
+				data
+				- host: maps.google.ca
+				data
+				- host: maps.google.cat
+				data
+				- host: maps.google.cc
+				data
+				- host: maps.google.cd
+				data
+				- host: maps.google.cf
+				data
+				- host: maps.google.cg
+				data
+				- host: maps.google.ch
+				data
+				- host: maps.google.ci
+				data
+				- host: maps.google.cl
+				data
+				- host: maps.google.cm
+				data
+				- host: maps.google.cn
+				data
+				- host: maps.google.co.ao
+				data
+				- host: maps.google.co.bw
+				data
+				- host: maps.google.co.ck
+				data
+				- host: maps.google.co.cr
+				data
+				- host: maps.googlecode.com
+				data
+				- host: maps.google.co.id
+				data
+				- host: maps.google.co.il
+				data
+				- host: maps.google.co.in
+				data
+				- host: maps.google.co.jp
+				data
+				- host: maps.google.co.ke
+				data
+				- host: maps.google.co.kr
+				data
+				- host: maps.google.co.ls
+				data
+				- host: maps.google.com
+				data
+				- host: maps.google.co.ma
+				data
+				- host: maps.google.com.af
+				data
+				- host: maps.google.com.ag
+				data
+				- host: maps.google.com.ai
+				data
+				- host: maps.google.com.ar
+				data
+				- host: maps.google.com.au
+				data
+				- host: maps.google.com.bd
+				data
+				- host: maps.google.com.bh
+				data
+				- host: maps.google.com.bn
+				data
+				- host: maps.google.com.bo
+				data
+				- host: maps.google.com.br
+				data
+				- host: maps.google.com.bz
+				data
+				- host: maps.google.com.co
+				data
+				- host: maps.google.com.cu
+				data
+				- host: maps.google.com.cy
+				data
+				- host: maps.google.com.do
+				data
+				- host: maps.google.com.ec
+				data
+				- host: maps.google.com.eg
+				data
+				- host: maps.google.com.et
+				data
+				- host: maps.google.com.fj
+				data
+				- host: maps.google.com.gh
+				data
+				- host: maps.google.com.gi
+				data
+				- host: maps.google.com.gt
+				data
+				- host: maps.google.com.hk
+				data
+				- host: maps.google.com.jm
+				data
+				- host: maps.google.com.kh
+				data
+				- host: maps.google.com.kw
+				data
+				- host: maps.google.com.lb
+				data
+				- host: maps.google.com.lc
+				data
+				- host: maps.google.com.ly
+				data
+				- host: maps.google.com.mm
+				data
+				- host: maps.google.com.mt
+				data
+				- host: maps.google.com.mx
+				data
+				- host: maps.google.com.my
+				data
+				- host: maps.google.com.na
+				data
+				- host: maps.google.com.nf
+				data
+				- host: maps.google.com.ng
+				data
+				- host: maps.google.com.ni
+				data
+				- host: maps.google.com.np
+				data
+				- host: maps.google.com.om
+				data
+				- host: maps.google.com.pa
+				data
+				- host: maps.google.com.pe
+				data
+				- host: maps.google.com.pg
+				data
+				- host: maps.google.com.ph
+				data
+				- host: maps.google.com.pk
+				data
+				- host: maps.google.com.pr
+				data
+				- host: maps.google.com.py
+				data
+				- host: maps.google.com.qa
+				data
+				- host: maps.google.com.sa
+				data
+				- host: maps.google.com.sb
+				data
+				- host: maps.google.com.sg
+				data
+				- host: maps.google.com.sl
+				data
+				- host: maps.google.com.sv
+				data
+				- host: maps.google.com.tj
+				data
+				- host: maps.google.com.tn
+				data
+				- host: maps.google.com.tr
+				data
+				- host: maps.google.com.tw
+				data
+				- host: maps.google.com.ua
+				data
+				- host: maps.google.com.uy
+				data
+				- host: maps.google.com.vc
+				data
+				- host: maps.google.com.vn
+				data
+				- host: maps.google.co.mz
+				data
+				- host: maps.google.co.nz
+				data
+				- host: maps.google.co.th
+				data
+				- host: maps.google.co.tz
+				data
+				- host: maps.google.co.ug
+				data
+				- host: maps.google.co.uk
+				data
+				- host: maps.google.co.uz
+				data
+				- host: maps.google.co.ve
+				data
+				- host: maps.google.co.vi
+				data
+				- host: maps.google.co.za
+				data
+				- host: maps.google.co.zm
+				data
+				- host: maps.google.co.zw
+				data
+				- host: maps.google.cv
+				data
+				- host: maps.google.cz
+				data
+				- host: maps.google.de
+				data
+				- host: maps.google.dj
+				data
+				- host: maps.google.dk
+				data
+				- host: maps.google.dm
+				data
+				- host: maps.google.dz
+				data
+				- host: maps.googlee.com
+				data
+				- host: maps.google.ee
+				data
+				- host: maps.google.es
+				data
+				- host: maps.google.fi
+				data
+				- host: maps.google.fm
+				data
+				- host: maps.google.fr
+				data
+				- host: maps.google.ga
+				data
+				- host: maps.google.ge
+				data
+				- host: maps.google.gf
+				data
+				- host: maps.google.gg
+				data
+				- host: maps.google.gl
+				data
+				- host: maps.google.gm
+				data
+				- host: maps.google.gp
+				data
+				- host: maps.google.gr
+				data
+				- host: maps.google.gy
+				data
+				- host: maps.google.hn
+				data
+				- host: maps.google.hr
+				data
+				- host: maps.google.ht
+				data
+				- host: maps.google.hu
+				data
+				- host: maps.google.ie
+				data
+				- host: maps.google.im
+				data
+				- host: maps.google.io
+				data
+				- host: maps.google.iq
+				data
+				- host: maps.google.ir
+				data
+				- host: maps.google.is
+				data
+				- host: maps.google.it
+				data
+				- host: maps.google.je
+				data
+				- host: maps.google.jo
+				data
+				- host: maps.google.kg
+				data
+				- host: maps.google.ki
+				data
+				- host: maps.google.kz
+				data
+				- host: maps.google.la
+				data
+				- host: maps.google.li
+				data
+				- host: maps.google.lk
+				data
+				- host: maps.google.lt
+				data
+				- host: maps.google.lu
+				data
+				- host: maps.google.lv
+				data
+				- host: maps.google.md
+				data
+				- host: maps.google.me
+				data
+				- host: maps.google.mg
+				data
+				- host: maps.google.mk
+				data
+				- host: maps.google.ml
+				data
+				- host: maps.google.mn
+				data
+				- host: maps.google.ms
+				data
+				- host: maps.google.mu
+				data
+				- host: maps.google.mv
+				data
+				- host: maps.google.mw
+				data
+				- host: maps.google.ne
+				data
+				- host: maps.google.net
+				data
+				- host: maps.google.nl
+				data
+				- host: maps.google.no
+				data
+				- host: maps.google.nr
+				data
+				- host: maps.google.nu
+				data
+				- host: maps.google.org
+				data
+				- host: maps.google.pl
+				data
+				- host: maps.google.pn
+				data
+				- host: maps.google.ps
+				data
+				- host: maps.google.pt
+				data
+				- host: maps.google.ro
+				data
+				- host: maps.google.rs
+				data
+				- host: maps.google.ru
+				data
+				- host: maps.google.rw
+				data
+				- host: maps.google.sc
+				data
+				- host: maps.google.se
+				data
+				- host: maps.google.sh
+				data
+				- host: maps.google.si
+				data
+				- host: maps.google.sk
+				data
+				- host: maps.google.sm
+				data
+				- host: maps.google.sn
+				data
+				- host: maps.google.so
+				data
+				- host: maps.google.st
+				data
+				- host: maps.google.td
+				data
+				- host: maps.google.tg
+				data
+				- host: maps.google.tk
+				data
+				- host: maps.google.tl
+				data
+				- host: maps.google.tm
+				data
+				- host: maps.google.tn
+				data
+				- host: maps.google.to
+				data
+				- host: maps.google.tt
+				data
+				- host: maps.google.us
+				data
+				- host: maps.google.vg
+				data
+				- host: maps.google.vu
+				data
+				- host: maps.google.ws
+				data
+				- host: www.googlemaps.com
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- pathPrefix: /maps
+				data
+				- host: www.google.ac
+				data
+				- host: www.google.ad
+				data
+				- host: www.google.ae
+				data
+				- host: www.google.al
+				data
+				- host: www.google.am
+				data
+				- host: www.google.as
+				data
+				- host: www.google.at
+				data
+				- host: www.google.az
+				data
+				- host: www.google.ba
+				data
+				- host: www.google.be
+				data
+				- host: www.google.bf
+				data
+				- host: www.google.bg
+				data
+				- host: www.google.bi
+				data
+				- host: www.google.bj
+				data
+				- host: www.google.bs
+				data
+				- host: www.google.bt
+				data
+				- host: www.google.by
+				data
+				- host: www.google.ca
+				data
+				- host: www.google.cat
+				data
+				- host: www.google.cc
+				data
+				- host: www.google.cd
+				data
+				- host: www.google.cf
+				data
+				- host: www.google.cg
+				data
+				- host: www.google.ch
+				data
+				- host: www.google.ci
+				data
+				- host: www.google.cl
+				data
+				- host: www.google.cm
+				data
+				- host: www.google.cn
+				data
+				- host: www.google.co.ao
+				data
+				- host: www.google.co.bw
+				data
+				- host: www.google.co.ck
+				data
+				- host: www.google.co.cr
+				data
+				- host: www.google.co.id
+				data
+				- host: www.google.co.il
+				data
+				- host: www.google.co.in
+				data
+				- host: www.google.co.jp
+				data
+				- host: www.google.co.ke
+				data
+				- host: www.google.co.kr
+				data
+				- host: www.google.co.ls
+				data
+				- host: www.google.com
+				data
+				- host: www.google.co.ma
+				data
+				- host: www.google.com.af
+				data
+				- host: www.google.com.ag
+				data
+				- host: www.google.com.ai
+				data
+				- host: www.google.com.ar
+				data
+				- host: www.google.com.au
+				data
+				- host: www.google.com.bd
+				data
+				- host: www.google.com.bh
+				data
+				- host: www.google.com.bn
+				data
+				- host: www.google.com.bo
+				data
+				- host: www.google.com.br
+				data
+				- host: www.google.com.bz
+				data
+				- host: www.google.com.co
+				data
+				- host: www.google.com.cu
+				data
+				- host: www.google.com.cy
+				data
+				- host: www.google.com.do
+				data
+				- host: www.google.com.ec
+				data
+				- host: www.google.com.eg
+				data
+				- host: www.google.com.et
+				data
+				- host: www.google.com.fj
+				data
+				- host: www.google.com.gh
+				data
+				- host: www.google.com.gi
+				data
+				- host: www.google.com.gt
+				data
+				- host: www.google.com.hk
+				data
+				- host: www.google.com.jm
+				data
+				- host: www.google.com.kh
+				data
+				- host: www.google.com.kw
+				data
+				- host: www.google.com.lb
+				data
+				- host: www.google.com.lc
+				data
+				- host: www.google.com.ly
+				data
+				- host: www.google.com.mm
+				data
+				- host: www.google.com.mt
+				data
+				- host: www.google.com.mx
+				data
+				- host: www.google.com.my
+				data
+				- host: www.google.com.na
+				data
+				- host: www.google.com.nf
+				data
+				- host: www.google.com.ng
+				data
+				- host: www.google.com.ni
+				data
+				- host: www.google.com.np
+				data
+				- host: www.google.com.om
+				data
+				- host: www.google.com.pa
+				data
+				- host: www.google.com.pe
+				data
+				- host: www.google.com.pg
+				data
+				- host: www.google.com.ph
+				data
+				- host: www.google.com.pk
+				data
+				- host: www.google.com.pr
+				data
+				- host: www.google.com.py
+				data
+				- host: www.google.com.qa
+				data
+				- host: www.google.com.sa
+				data
+				- host: www.google.com.sb
+				data
+				- host: www.google.com.sg
+				data
+				- host: www.google.com.sl
+				data
+				- host: www.google.com.sv
+				data
+				- host: www.google.com.tj
+				data
+				- host: www.google.com.tn
+				data
+				- host: www.google.com.tr
+				data
+				- host: www.google.com.tw
+				data
+				- host: www.google.com.ua
+				data
+				- host: www.google.com.uy
+				data
+				- host: www.google.com.vc
+				data
+				- host: www.google.com.vn
+				data
+				- host: www.google.co.mz
+				data
+				- host: www.google.co.nz
+				data
+				- host: www.google.co.th
+				data
+				- host: www.google.co.tz
+				data
+				- host: www.google.co.ug
+				data
+				- host: www.google.co.uk
+				data
+				- host: www.google.co.uz
+				data
+				- host: www.google.co.ve
+				data
+				- host: www.google.co.vi
+				data
+				- host: www.google.co.za
+				data
+				- host: www.google.co.zm
+				data
+				- host: www.google.co.zw
+				data
+				- host: www.google.cv
+				data
+				- host: www.google.cz
+				data
+				- host: www.google.de
+				data
+				- host: www.google.dj
+				data
+				- host: www.google.dk
+				data
+				- host: www.google.dm
+				data
+				- host: www.google.dz
+				data
+				- host: www.googlee.com
+				data
+				- host: www.google.ee
+				data
+				- host: www.google.es
+				data
+				- host: www.google.fi
+				data
+				- host: www.google.fm
+				data
+				- host: www.google.fr
+				data
+				- host: www.google.ga
+				data
+				- host: www.google.ge
+				data
+				- host: www.google.gf
+				data
+				- host: www.google.gg
+				data
+				- host: www.google.gl
+				data
+				- host: www.google.gm
+				data
+				- host: www.google.gp
+				data
+				- host: www.google.gr
+				data
+				- host: www.google.gy
+				data
+				- host: www.google.hn
+				data
+				- host: www.google.hr
+				data
+				- host: www.google.ht
+				data
+				- host: www.google.hu
+				data
+				- host: www.google.ie
+				data
+				- host: www.google.im
+				data
+				- host: www.google.io
+				data
+				- host: www.google.iq
+				data
+				- host: www.google.ir
+				data
+				- host: www.google.is
+				data
+				- host: www.google.it
+				data
+				- host: www.google.je
+				data
+				- host: www.google.jo
+				data
+				- host: www.google.kg
+				data
+				- host: www.google.ki
+				data
+				- host: www.google.kz
+				data
+				- host: www.google.la
+				data
+				- host: www.google.li
+				data
+				- host: www.google.lk
+				data
+				- host: www.google.lt
+				data
+				- host: www.google.lu
+				data
+				- host: www.google.lv
+				data
+				- host: www.google.md
+				data
+				- host: www.google.me
+				data
+				- host: www.google.mg
+				data
+				- host: www.google.mk
+				data
+				- host: www.google.ml
+				data
+				- host: www.google.mn
+				data
+				- host: www.google.ms
+				data
+				- host: www.google.mu
+				data
+				- host: www.google.mv
+				data
+				- host: www.google.mw
+				data
+				- host: www.google.ne
+				data
+				- host: www.google.net
+				data
+				- host: www.google.nl
+				data
+				- host: www.google.no
+				data
+				- host: www.google.nr
+				data
+				- host: www.google.nu
+				data
+				- host: www.google.org
+				data
+				- host: www.google.pl
+				data
+				- host: www.google.pn
+				data
+				- host: www.google.ps
+				data
+				- host: www.google.pt
+				data
+				- host: www.google.ro
+				data
+				- host: www.google.rs
+				data
+				- host: www.google.ru
+				data
+				- host: www.google.rw
+				data
+				- host: www.google.sc
+				data
+				- host: www.google.se
+				data
+				- host: www.google.sh
+				data
+				- host: www.google.si
+				data
+				- host: www.google.sk
+				data
+				- host: www.google.sm
+				data
+				- host: www.google.sn
+				data
+				- host: www.google.so
+				data
+				- host: www.google.st
+				data
+				- host: www.google.td
+				data
+				- host: www.google.tg
+				data
+				- host: www.google.tk
+				data
+				- host: www.google.tl
+				data
+				- host: www.google.tm
+				data
+				- host: www.google.tn
+				data
+				- host: www.google.to
+				data
+				- host: www.google.tt
+				data
+				- host: www.google.us
+				data
+				- host: www.google.vg
+				data
+				- host: www.google.vu
+				data
+				- host: www.google.ws
+		activity
+		- name: net.osmand.plus.plugins.development.TestVoiceActivity
+		activity
+		- name: net.osmand.plus.plugins.development.LogcatActivity
+		activity
+		- exported: true
+		- name: net.osmand.plus.download.DownloadActivity
+		- label: 
+		activity
+		- exported: true
+		- name: net.osmand.plus.wikivoyage.explore.WikivoyageExploreActivity
+			intent-filter
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: osmand.net
+				data
+				- pathPrefix: /travel
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.APP_MAPS
+				category
+				- name: android.intent.category.CAR_MODE
+				category
+				- name: android.intent.category.CAR_DOCK
+				category
+				- name: android.intent.category.DESK_DOCK
+		activity
+		- exported: false
+		- name: net.osmand.plus.activities.RestartActivity
+		- process: :restart
+		- theme: 16973840
+		service
+		- exported: true
+		- name: net.osmand.aidl.OsmandAidlService
+			intent-filter
+				action
+				- name: net.osmand.aidl.OsmandAidlService
+				category
+				- name: android.intent.category.DEFAULT
+		service
+		- exported: true
+		- name: net.osmand.aidl.OsmandAidlServiceV2
+			intent-filter
+				action
+				- name: net.osmand.aidl.OsmandAidlServiceV2
+				category
+				- name: android.intent.category.DEFAULT
+		service
+		- name: net.osmand.plus.download.DownloadService
+		- stopWithTask: false
+		- label: 2131828297
+		meta-data
+		- name: com.google.android.gms.car.application
+		- resource: 2132017154
+		meta-data
+		- name: androidx.car.app.minCarApiLevel
+		- value: 1
+		service
+		- exported: true
+		- name: net.osmand.plus.auto.NavigationCarAppService
+			intent-filter
+				action
+				- name: androidx.car.app.CarAppService
+				category
+				- name: androidx.car.app.category.NAVIGATION
+		service
+		- exported: false
+		- name: androidx.car.app.CarAppMetadataHolderService
+		- process: 
+		- enabled: false
+			meta-data
+			- name: androidx.car.app.CarAppMetadataHolderService.CAR_HARDWARE_MANAGER
+			- value: androidx.car.app.hardware.ProjectedCarHardwareManager
+		activity
+		- exported: false
+		- name: androidx.car.app.CarAppPermissionActivity
+		- theme: 16973840
+		receiver
+		- name: androidx.car.app.notification.CarAppNotificationBroadcastReceiver
+		activity
+		- exported: false
+		- name: com.google.android.gms.common.api.GoogleApiActivity
+		- theme: 16973840
+		meta-data
+		- name: com.google.android.gms.version
+		- value: 2131361805
+		meta-data
+		- name: com.google.android.play.billingclient.version
+		- value: 5.0.0
+		activity
+		- exported: false
+		- name: com.android.billingclient.api.ProxyBillingActivity
+		- configChanges: 1456
+		- theme: 16973840
+		provider
+		- exported: false
+		- name: com.squareup.picasso.PicassoProvider
+		- authorities: net.osmand.com.squareup.picasso
+		activity
+		- exported: false
+		- process: :playcore_missing_splits_activity
+		- stateNotNeeded: true
+		- name: com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+		- launchMode: 3
+		- enabled: false
+		activity
+		- exported: false
+		- name: com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+		- theme: 2131886798
+		- stateNotNeeded: true
+		- enabled: false
+		service
+		- exported: true
+		- name: com.google.android.play.core.assetpacks.AssetPackExtractionService
+		- enabled: false
+			meta-data
+			- name: com.google.android.play.core.assetpacks.versionCode
+			- value: 10901
+		service
+		- exported: false
+		- name: com.google.android.play.core.assetpacks.ExtractionForegroundService
+		- enabled: false
+		provider
+		- exported: false
+		- name: androidx.startup.InitializationProvider
+		- authorities: net.osmand.androidx-startup
+			meta-data
+			- name: androidx.emoji2.text.EmojiCompatInitializer
+			- value: androidx.startup
+			meta-data
+			- name: androidx.lifecycle.ProcessLifecycleInitializer
+			- value: androidx.startup

@@ -1,0 +1,605 @@
+manifest
+- compileSdkVersionCodename: 13
+- installLocation: 0
+- package: com.simplemobiletools.calendar.pro
+- platformBuildVersionName: 13
+- compileSdkVersion: 33
+- versionName: 6.22.2
+- platformBuildVersionCode: 33
+- versionCode: 238
+	uses-sdk
+	- minSdkVersion: 23
+	- targetSdkVersion: 33
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.READ_CONTACTS
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.READ_CALENDAR
+	uses-permission
+	- name: android.permission.WRITE_CALENDAR
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.SCHEDULE_EXACT_ALARM
+	uses-permission
+	- name: android.permission.USE_EXACT_ALARM
+	uses-permission
+	- name: android.permission.POST_NOTIFICATIONS
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	- maxSdkVersion: 28
+	queries
+		package
+		- name: com.simplemobiletools.contacts.pro.debug
+		package
+		- name: com.simplemobiletools.contacts.pro
+		package
+		- name: com.simplemobiletools.thankyou.debug
+		package
+		- name: com.simplemobiletools.thankyou
+	queries
+		package
+		- name: com.simplemobiletools.calendar.debug
+		package
+		- name: com.simplemobiletools.calendar
+	uses-feature
+	- name: android.hardware.faketouch
+	- required: false
+	uses-feature
+	- name: android.hardware.screen.portrait
+	- required: false
+	permission
+	- name: com.simplemobiletools.calendar.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+	- protectionLevel: 2
+	uses-permission
+	- name: com.simplemobiletools.calendar.pro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+	application
+	- supportsRtl: true
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- allowBackup: true
+	- extractNativeLibs: false
+	- localeConfig: 2132017152
+	- icon: 2131689484
+	- name: com.simplemobiletools.calendar.pro.App
+	- appCategory: 7
+	- theme: 2131886090
+	- roundIcon: 2131689484
+	- label: 2131820628
+		activity
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- launchMode: 2
+		- theme: 2131886885
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689494
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Grey_black
+		- roundIcon: 2131689494
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689487
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue_grey
+		- roundIcon: 2131689487
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689488
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Brown
+		- roundIcon: 2131689488
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689490
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_orange
+		- roundIcon: 2131689490
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689484
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Orange
+		- roundIcon: 2131689484
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689485
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Amber
+		- roundIcon: 2131689485
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689503
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Yellow
+		- roundIcon: 2131689503
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689498
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Lime
+		- roundIcon: 2131689498
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689497
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_green
+		- roundIcon: 2131689497
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689493
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Green
+		- roundIcon: 2131689493
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689502
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Teal
+		- roundIcon: 2131689502
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689489
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Cyan
+		- roundIcon: 2131689489
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689496
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Light_blue
+		- roundIcon: 2131689496
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689486
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Blue
+		- roundIcon: 2131689486
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689495
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Indigo
+		- roundIcon: 2131689495
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689491
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Deep_purple
+		- roundIcon: 2131689491
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689500
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Purple
+		- roundIcon: 2131689500
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689499
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Pink
+		- roundIcon: 2131689499
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.calendar.pro.activities.SplashActivity
+		- icon: 2131689501
+		- name: com.simplemobiletools.calendar.pro.activities.SplashActivity.Red
+		- roundIcon: 2131689501
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.APP_CALENDAR
+		activity
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.activities.MainActivity
+		- launchMode: 2
+		- configChanges: 128
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- mimeType: text/x-vcalendar
+				data
+				- mimeType: text/calendar
+				data
+				- mimeType: application/ics
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: time/epoch
+				data
+				- host: com.android.calendar
+				data
+				- scheme: content
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: vnd.android.cursor.item/event
+		activity
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.activities.WidgetMonthlyConfigureActivity
+		- theme: 2131886780
+		- screenOrientation: 1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		activity
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.activities.WidgetListConfigureActivity
+		- theme: 2131886780
+		- screenOrientation: 1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		activity
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.activities.WidgetDateConfigureActivity
+		- theme: 2131886780
+		- screenOrientation: 1
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.AboutActivity
+		- configChanges: 128
+		- label: 2131820572
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.MainActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.CustomizationActivity
+		- configChanges: 128
+		- label: 2131820772
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.SettingsActivity
+		activity
+		- exported: true
+		- windowSoftInputMode: 16
+		- name: com.simplemobiletools.calendar.pro.activities.EventActivity
+		- launchMode: 2
+		- label: 2131821327
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.EDIT
+				action
+				- name: android.intent.action.INSERT
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: vnd.android.cursor.item/event
+			intent-filter
+				action
+				- name: android.intent.action.EDIT
+				action
+				- name: android.intent.action.INSERT
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: vnd.android.cursor.dir/event
+		activity
+		- exported: false
+		- windowSoftInputMode: 16
+		- name: com.simplemobiletools.calendar.pro.activities.TaskActivity
+		- launchMode: 2
+		- label: 2131821329
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.MainActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.activities.SelectTimeZoneActivity
+		- configChanges: 128
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.EventActivity
+			meta-data
+			- name: android.app.default_searchable
+			- resource: 2132017154
+			intent-filter
+				action
+				- name: android.intent.action.SEARCH
+		activity
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.activities.SettingsActivity
+		- configChanges: 128
+		- label: 2131821643
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.APPLICATION_PREFERENCES
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.activities.ManageEventTypesActivity
+		- configChanges: 128
+		- label: 2131820877
+		- parentActivityName: com.simplemobiletools.calendar.pro.activities.SettingsActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.activities.SnoozeReminderActivity
+		- configChanges: 128
+		- theme: 2131887109
+		- excludeFromRecents: true
+		activity
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.activities.EventTypePickerActivity
+		- configChanges: 128
+		- theme: 2131887109
+		- excludeFromRecents: true
+		receiver
+		- exported: true
+		- icon: 2131231088
+		- name: com.simplemobiletools.calendar.pro.helpers.MyWidgetMonthlyProvider
+		- label: 2131821989
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132017157
+		receiver
+		- exported: true
+		- icon: 2131231087
+		- name: com.simplemobiletools.calendar.pro.helpers.MyWidgetListProvider
+		- label: 2131821987
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132017156
+		receiver
+		- exported: true
+		- icon: 2131231086
+		- name: com.simplemobiletools.calendar.pro.helpers.MyWidgetDateProvider
+		- label: 2131821990
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132017155
+		service
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.services.WidgetService
+		- permission: android.permission.BIND_REMOTEVIEWS
+		service
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.services.WidgetServiceEmpty
+		- permission: android.permission.BIND_REMOTEVIEWS
+		service
+		- name: com.simplemobiletools.calendar.pro.services.SnoozeService
+		service
+		- name: com.simplemobiletools.calendar.pro.services.MarkCompletedService
+		service
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.jobs.CalDAVUpdateListener
+		- permission: android.permission.BIND_JOB_SERVICE
+		receiver
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.receivers.NotificationReceiver
+		receiver
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.receivers.CalDAVSyncReceiver
+		receiver
+		- exported: true
+		- name: com.simplemobiletools.calendar.pro.receivers.BootCompletedReceiver
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.intent.action.QUICKBOOT_POWERON
+				action
+				- name: com.htc.intent.action.QUICKBOOT_POWERON
+				action
+				- name: android.intent.action.MY_PACKAGE_REPLACED
+		receiver
+		- exported: false
+		- name: com.simplemobiletools.calendar.pro.receivers.AutomaticBackupReceiver
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: com.simplemobiletools.calendar.pro.provider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2132017153
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.ContributorsActivity
+		- configChanges: 128
+		- label: 2131820742
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.FAQActivity
+		- configChanges: 128
+		- label: 2131821018
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.LicenseActivity
+		- configChanges: 128
+		- label: 2131821760
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		receiver
+		- exported: true
+		- name: com.simplemobiletools.commons.receivers.SharedThemeReceiver
+		- enabled: true
+			intent-filter
+				action
+				- name: com.simplemobiletools.commons.SHARED_THEME_ACTIVATED
+				action
+				- name: com.simplemobiletools.commons.SHARED_THEME_UPDATED
+		service
+		- exported: false
+		- name: androidx.room.MultiInstanceInvalidationService
+		- directBootAware: true
+		provider
+		- exported: false
+		- name: androidx.startup.InitializationProvider
+		- authorities: com.simplemobiletools.calendar.pro.androidx-startup
+			meta-data
+			- name: androidx.emoji2.text.EmojiCompatInitializer
+			- value: androidx.startup
+			meta-data
+			- name: androidx.lifecycle.ProcessLifecycleInitializer
+			- value: androidx.startup

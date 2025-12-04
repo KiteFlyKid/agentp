@@ -1,0 +1,1550 @@
+
+org.videolan.vlc.gui.onboarding.OnboardingActivityKt -> org.videolan.vlc.gui.onboarding.OnboardingActivity
+
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.browser.FileBrowserFragment
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.moviepedia.ui.MoviepediaActivity
+org.videolan.vlc.gui.browser.FileBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+
+org.videolan.vlc.gui.preferences.PreferencesCasting -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesCasting -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.browser.VerticalGridActivity -> org.videolan.vlc.interfaces.BrowserFragmentInterface
+org.videolan.television.ui.browser.VerticalGridActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.VerticalGridActivity -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.TVActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.browser.TVActivity -> androidx.fragment.app.Fragment
+org.videolan.television.ui.browser.TVActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.browser.TVActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.vlc.gui.dialogs.LicenseDialog -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.dialogs.LicenseDialog -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.dialogs.LicenseDialog -> interICC_android.intent.action.VIEW, 
+
+org.videolan.vlc.databinding.AudioPlayerBindingImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.AudioPlayerBindingImpl -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.AudioPlayerBindingImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.TvReceiver -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.TvReceiver -> org.videolan.vlc.RecommendationsService
+org.videolan.vlc.TvReceiver -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.TvReceiver -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.TvReceiver -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.TvReceiver -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.TvReceiver -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.preferences.PreferencesActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.preferences.PreferencesActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.preferences.PreferencesActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesSubtitles
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesAdvanced
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.dialogs.ConfirmAudioPlayQueueDialog
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesVideo
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesCasting
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesUi
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesExtensions
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesFragment -> org.videolan.vlc.gui.preferences.PreferencesAudio
+
+org.videolan.vlc.gui.AboutFragment -> org.videolan.vlc.gui.AuthorsActivity
+org.videolan.vlc.gui.AboutFragment -> org.videolan.vlc.gui.dialogs.LicenseDialog
+org.videolan.vlc.gui.AboutFragment -> org.videolan.vlc.gui.LibrariesActivity
+org.videolan.vlc.gui.AboutFragment -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.AboutFragment -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.AboutFragment -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.AboutFragment -> org.videolan.vlc.gui.dialogs.AboutVersionDialog
+org.videolan.vlc.gui.AboutFragment -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.moviepedia.ui.MoviepediaActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.video.VideoGridFragment -> interICC_android.intent.action.SEND, 
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.AddToGroupDialog
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.video.VideoGridFragment -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.gui.helpers.hf.OtgAccess -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+org.videolan.vlc.gui.LibrariesActivity -> org.videolan.vlc.gui.dialogs.LicenseDialog
+
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.network.StreamsFragmentDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.viewmodels.PlaylistModel -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.viewmodels.PlaylistModel -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.viewmodels.PlaylistModel -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.viewmodels.PlaylistModel -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.video.VideoDelayDelegate -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.video.VideoDelayDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoDelayDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoDelayDelegate -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.VideoDelayDelegate -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.VideoDelayDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.browser.ExtensionBrowser -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.browser.ExtensionBrowser -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.HeaderMediaListActivity
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.audio.AudioBrowserFragment -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.AboutActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.preferences.PreferencesActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.vlc.RecommendationsService
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MainTvFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.AudioPlayerContainerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.AudioPlayerContainerActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.vlc.gui.AudioPlayerContainerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.AudioPlayerContainerActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.databinding.ExtensionItemViewBindingImpl -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.dialogs.VideoTracksDialog
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.dialogs.NetworkServerDialog
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.MainBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+
+org.videolan.vlc.gui.helpers.AudioUtil -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.helpers.AudioUtil -> interICC_new org.videolan.vlc.util.Permissions
+
+org.videolan.vlc.util.WidgetMigration -> org.videolan.vlc.gui.dialogs.WidgetMigrationDialog
+
+org.videolan.vlc.gui.browser.FilePickerActivity -> org.videolan.vlc.gui.browser.FilePickerFragment
+org.videolan.vlc.gui.browser.FilePickerActivity -> org.videolan.vlc.gui.browser.FileBrowserFragment
+
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.preferences.PreferencesActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.preferences.search.PreferenceSearchActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.preferences.PreferencesFragment
+
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> interICC_INIT, 
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+
+org.videolan.mobile.app.AppSetupDelegate -> org.videolan.vlc.gui.CompatErrorActivity
+org.videolan.mobile.app.AppSetupDelegate -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+
+org.videolan.television.ui.preferences.PreferencesUi -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+org.videolan.television.ui.preferences.PreferencesUi -> org.videolan.vlc.gui.dialogs.FeatureTouchOnlyWarningDialog
+
+org.videolan.television.ui.OnboardingFragment -> org.videolan.television.ui.MainTvActivity
+
+org.videolan.vlc.gui.SecondaryActivity -> androidx.fragment.app.Fragment
+org.videolan.vlc.gui.SecondaryActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.SecondaryActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.SecondaryActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.browser.FileBrowserFragment
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.VlcLoginDialog
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.moviepedia.ui.MoviepediaActivity
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.VlcQuestionDialog
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.VlcProgressDialog
+org.videolan.vlc.gui.browser.NetworkBrowserFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+
+org.videolan.vlc.gui.helpers.BookmarkListDelegate -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.helpers.BookmarkListDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.helpers.BookmarkListDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.helpers.BookmarkListDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.television.util.HelpersKt -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+
+org.videolan.vlc.DebugLogService -> org.videolan.vlc.gui.DebugLogActivity
+org.videolan.vlc.DebugLogService -> org.videolan.vlc.DebugLogService
+
+org.videolan.television.ui.preferences.PreferencesOptional -> org.videolan.vlc.gui.dialogs.FeatureFlagWarningDialog
+
+org.videolan.vlc.gui.dialogs.SelectChapterDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.SelectChapterDialog -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.SelectChapterDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.television.ui.details.MediaListActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, android.intent.category.LAUNCHER
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+org.videolan.television.ui.details.MediaListActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, android.intent.category.LAUNCHER
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.details.MediaListActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.vlc.gui.preferences.PreferencesExtensionFragment -> interICC_org.videolan.vlc.Extension, 
+org.videolan.vlc.gui.preferences.PreferencesExtensionFragment -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesExtensionFragment -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.AudioControlsSettingsDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.VideoControlsSettingsDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.helpers.PlayerOptionsDelegate -> org.videolan.vlc.gui.MainActivity
+
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.browser.FileBrowserFragment
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.moviepedia.ui.MoviepediaActivity
+org.videolan.vlc.gui.browser.FilePickerFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+
+org.videolan.vlc.util.Permissions -> interICC_new android.app.Activity, 
+org.videolan.vlc.util.Permissions -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.util.Permissions -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.util.Permissions -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+
+org.videolan.vlc.viewmodels.mobile.VideosViewModel -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+
+org.videolan.television.ui.MediaScrapingTvshowDetailsFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsFragment -> org.videolan.television.ui.DetailsActivity
+
+org.videolan.television.ui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.DebugLogActivity
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.television.ui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.television.ui.preferences.PreferencesAdvanced -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+
+org.videolan.vlc.gui.SendCrashActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.SendCrashActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.SendCrashActivity -> org.videolan.vlc.DebugLogService
+
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+org.videolan.television.ui.preferences.PreferencesSubtitles -> org.videolan.television.ui.ColorPickerActivity
+
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> org.videolan.vlc.gui.dialogs.VideoTracksDialog
+org.videolan.vlc.databinding.PlayerHudBindingImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.BaseFragment -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.gui.preferences.PreferencesUi -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesUi -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+
+org.videolan.vlc.media.MediaSessionBrowser -> org.videolan.vlc.extensions.ExtensionManagerService
+org.videolan.vlc.media.MediaSessionBrowser -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.HeaderMediaListActivity
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.audio.AudioAlbumsSongsFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.moviepedia.ui.MoviepediaActivity
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.browser.FileBrowserFragment
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.BaseBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+
+org.videolan.vlc.gui.dialogs.NotificationPermissionManager -> org.videolan.vlc.gui.dialogs.NotificationPermissionDialog
+
+org.videolan.vlc.gui.browser.ExtensionAdapter -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.vlc.extensions.ExtensionsManager -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.television.ui.MediaScrapingTvFragment
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, android.intent.category.LAUNCHER
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> org.videolan.vlc.StartActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> interICC_android.intent.action.MAIN, android.settings.SETTINGS, android.intent.category.LAUNCHER
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.MainTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MainTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.MainTvActivity -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.television.ui.SearchFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.SearchFragment -> org.videolan.television.ui.browser.TVActivity
+
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.NetworkServerDialog
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.VlcLoginDialog
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.VlcProgressDialog
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.VlcQuestionDialog
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.dialogs.DeviceDialog
+
+org.videolan.vlc.gui.preferences.PreferencesExtensions -> org.videolan.vlc.gui.preferences.PreferencesExtensionFragment
+org.videolan.vlc.gui.preferences.PreferencesExtensions -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesExtensions -> interICC_org.videolan.vlc.Extension, 
+org.videolan.vlc.gui.preferences.PreferencesExtensions -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_android.intent.action.SEND, 
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.HeaderMediaListActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerResizeDelegate -> org.videolan.vlc.gui.dialogs.RenderersDialog
+
+org.videolan.vlc.util.UrlUtilsKt -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.util.UrlUtilsKt -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.util.UrlUtilsKt -> interICC_android.intent.action.VIEW, 
+
+org.videolan.vlc.gui.dialogs.AllAccessPermissionDialog -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.dialogs.AllAccessPermissionDialog -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.gui.dialogs.AllAccessPermissionDialog -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.dialogs.AllAccessPermissionDialog -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+
+org.videolan.vlc.gui.DebugLogActivity -> org.videolan.vlc.DebugLogService
+org.videolan.vlc.gui.DebugLogActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.browser.FilePickerActivity
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.dialogs.VideoTracksDialog
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.video.VideoPlayerOverlayDelegate -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.ShallowVideoPlayer -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+
+org.videolan.vlc.gui.browser.MediaBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.MediaBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.preferences.PreferencesActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.MoreFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.StoragesMonitor -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.vlc.MediaParsingService -> interICC_action_pause_scan, action_resume_scan, 
+org.videolan.vlc.MediaParsingService -> interICC_action_pause_scan, action_resume_scan, 
+org.videolan.vlc.MediaParsingService -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingPermissionFragment
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingNotificationPermissionFragment
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingScanningFragment
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingWelcomeFragment
+org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment -> org.videolan.vlc.gui.onboarding.OnboardingThemeFragment
+
+org.videolan.television.ui.MediaScrapingTvFragment -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.DetailsActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.TvUtil -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.TvUtil -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.TvUtil -> org.videolan.television.ui.browser.VerticalGridActivity
+
+org.videolan.vlc.gui.dialogs.ContextSheetKt -> org.videolan.vlc.gui.dialogs.ContextSheet
+
+org.videolan.vlc.gui.dialogs.DeviceDialog -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.dialogs.DeviceDialog -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.gui.helpers.NotificationHelper -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.helpers.NotificationHelper -> interICC_action_pause_scan, action_resume_scan, 
+org.videolan.vlc.gui.helpers.NotificationHelper -> interICC_action_pause_scan, action_resume_scan, 
+org.videolan.vlc.gui.helpers.NotificationHelper -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.helpers.NotificationHelper -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.helpers.NotificationHelper -> interICC_org.videolan.vlc.CustomAction, 
+
+org.videolan.vlc.gui.helpers.hf.WriteExternalDelegate -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+org.videolan.vlc.gui.helpers.hf.WriteExternalDelegate -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+org.videolan.vlc.extensions.api.WarningActivity -> org.videolan.vlc.StartActivity
+
+org.videolan.television.ui.browser.BaseBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.BaseBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.BaseBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+
+org.videolan.vlc.gui.preferences.PreferencesOptional -> org.videolan.vlc.gui.dialogs.FeatureFlagWarningDialog
+org.videolan.vlc.gui.preferences.PreferencesOptional -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesOptional -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.FileBrowserTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+
+org.videolan.vlc.gui.view.EmptyLoadingStateView -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.extensions.ExtensionManagerService
+org.videolan.vlc.PlaybackService -> interICC_com.android.music.metachanged, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.PlaybackService -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_org.videolan.vlc.Extension, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_com.android.music.metachanged, 
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, 
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+
+org.videolan.vlc.DataBinderMapperImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.DataBinderMapperImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.DataBinderMapperImpl -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.onboarding.OnboardingScanningFragment -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.gui.preferences.PreferencesAudioControls -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesAudioControls -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+
+org.videolan.vlc.gui.preferences.widgets.PreferencesWidgets -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.widgets.PreferencesWidgets -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+
+org.videolan.vlc.extensions.ExtensionManagerService -> interICC_org.videolan.vlc.Extension, 
+
+org.videolan.vlc.gui.browser.MLStorageBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.MLStorageBrowserFragment -> org.videolan.vlc.gui.browser.StorageBrowserFragment
+
+org.videolan.television.ui.MediaItemDetailsFragment -> interICC_Stop, 
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.MediaScrapingTvActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.television.ui.MediaItemDetailsFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.video.VideoTouchDelegate -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoTouchDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoTouchDelegate -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.VideoTouchDelegate -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.VideoTouchDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.video.VideoTouchDelegate -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.VideoTouchDelegate -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.PlaylistFragment
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.browser.ExtensionBrowser
+org.videolan.vlc.gui.helpers.Navigator -> interICC_org.videolan.vlc.Extension, 
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.MoreFragment
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.browser.MainBrowserFragment
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.preferences.PreferencesActivity
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.audio.AudioBrowserFragment
+org.videolan.vlc.gui.helpers.Navigator -> org.videolan.vlc.gui.video.VideoGridFragment
+
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.browser.StorageBrowserFragment
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.browser.FileBrowserFragment
+org.videolan.vlc.gui.browser.StorageBrowserFragment -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+
+org.videolan.television.ui.browser.MediaScrapingBrowserTvFragment -> org.videolan.television.ui.MediaScrapingTvshowDetailsActivity
+org.videolan.television.ui.browser.MediaScrapingBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.MediaScrapingBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.MediaScrapingBrowserTvFragment -> org.videolan.television.ui.MediaScrapingTvshowDetailsActivity
+org.videolan.television.ui.browser.MediaScrapingBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+
+org.videolan.vlc.gui.helpers.UiTools -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.dialogs.AboutVersionDialog
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.AuthorsActivity
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.LibrariesActivity
+org.videolan.vlc.gui.helpers.UiTools -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.preferences.PreferencesActivity
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.dialogs.VideoTracksDialog
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.helpers.UiTools -> interICC_android.intent.action.VIEW, 
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.dialogs.AddToGroupDialog
+org.videolan.vlc.gui.helpers.UiTools -> org.videolan.vlc.gui.dialogs.LicenseDialog
+
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingWelcomeFragment
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingThemeFragment
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingPermissionFragment
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingNoPermissionFragment
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingScanningFragment
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.onboarding.OnboardingNotificationPermissionFragment
+
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.StartActivity
+org.videolan.vlc.media.PlaylistManager -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.PlaylistManager -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.PlaylistManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> interICC_android.intent.action.SEND, 
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.audio.BaseAudioBrowser -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.television.ui.CardPresenter -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.CardPresenter -> org.videolan.television.ui.DetailsActivity
+
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.DebugLogActivity
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.preferences.PreferencesOptional
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.gui.preferences.PreferencesAdvanced -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.gui.InfoActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.InfoActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.InfoActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.InfoActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+
+org.videolan.vlc.widget.VLCAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProvider -> interICC_INIT, 
+org.videolan.vlc.widget.VLCAppWidgetProvider -> org.videolan.vlc.PlaybackService
+
+org.videolan.vlc.extensions.api.tools.Helpers -> org.videolan.vlc.extensions.api.WarningActivity
+
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.browser.BaseTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.browser.BaseTvActivity -> interICC_android.settings.SETTINGS, 
+
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.ContentActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.vlc.gui.ContentActivity -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.ContentActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.ContentActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.ContentActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.ContentActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.ContentActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.video.PopupManager -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_PlayPause, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_Stop, 
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_PlayPause, 
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.PopupManager -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_Stop, 
+org.videolan.vlc.gui.video.PopupManager -> interICC_SwitchToVideo, 
+
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> com.android.tv.settings.connectivity.NetworkActivity
+
+org.videolan.vlc.util.KextensionsKt -> org.videolan.vlc.StartActivity
+org.videolan.vlc.util.KextensionsKt -> interICC_android.intent.action.SEND, 
+org.videolan.vlc.util.KextensionsKt -> interICC_android.intent.action.SEND_MULTIPLE, 
+org.videolan.vlc.util.KextensionsKt -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.util.DialogDelegatesKt -> org.videolan.vlc.gui.dialogs.VlcProgressDialog
+org.videolan.vlc.util.DialogDelegatesKt -> org.videolan.vlc.gui.dialogs.VlcQuestionDialog
+org.videolan.vlc.util.DialogDelegatesKt -> org.videolan.vlc.gui.dialogs.VlcLoginDialog
+
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_android.intent.action.SEND, 
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.audio.AudioPlayer -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.audio.AudioPlayer -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.gui.video.VideoPlayerScreenshotDelegate -> org.videolan.vlc.StartActivity
+
+org.videolan.resources.VLCInstance -> org.videolan.vlc.gui.CompatErrorActivity
+
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.MediaSessionCallback -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, 
+org.videolan.vlc.MediaSessionCallback -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+
+org.videolan.vlc.gui.MainActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.audio.EqualizerFragment
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.dialogs.NotificationPermissionDialog
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.MainActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.dialogs.WidgetMigrationDialog
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.dialogs.AllAccessPermissionDialog
+org.videolan.vlc.gui.MainActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.MainActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.helpers.hf.StoragePermissionsDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.helpers.hf.StoragePermissionsDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.helpers.hf.StoragePermissionsDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.helpers.hf.StoragePermissionsDelegate -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.helpers.hf.StoragePermissionsDelegate -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+
+org.videolan.vlc.gui.preferences.PreferencesAudio -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesAudio -> org.videolan.vlc.gui.browser.FilePickerActivity
+org.videolan.vlc.gui.preferences.PreferencesAudio -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.gui.preferences.PreferencesSubtitles -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesSubtitles -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> interICC_INIT, 
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.PlaybackService
+
+org.videolan.vlc.gui.preferences.PreferencesVideoControls -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+org.videolan.vlc.gui.preferences.PreferencesVideoControls -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.vlc.gui.preferences.PreferencesVideo -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.PreferencesVideo -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.dialogs.SubtitleDownloaderDialogFragment
+org.videolan.vlc.media.MediaUtils -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.media.MediaUtils -> interICC_org.videolan.vlc.CustomAction, 
+
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> com.android.tv.settings.connectivity.NetworkActivity
+org.videolan.television.ui.SearchActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> interICC_android.settings.SETTINGS, 
+org.videolan.television.ui.SearchActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> interICC_INIT, 
+
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.onboarding.OnboardingActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.OnboardingActivity
+
+org.videolan.vlc.databinding.AudioPlayerBindingLandImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.AudioPlayerBindingLandImpl -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.databinding.AudioPlayerBindingLandImpl -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.dialogs.RenameDialog
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.network.MRLPanelFragment -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.television.ui.AboutActivity -> interICC_android.intent.action.VIEW, 
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.dialogs.AboutVersionDialog
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.AuthorsActivity
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.LibrariesActivity
+org.videolan.television.ui.AboutActivity -> interICC_android.intent.action.VIEW, 
+org.videolan.television.ui.AboutActivity -> interICC_android.intent.action.VIEW, 
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.dialogs.LicenseDialog
+
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.dialogs.SleepTimerDialog
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_org.videolan.vlcbenchmark.TRIGGER_SCREENSHOT, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.dialogs.PlaybackSpeedDialog
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.dialogs.VideoTracksDialog
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_org.videolan.vlcbenchmark.TRIGGER_SCREENSHOT, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, org.videolan.vlc.CustomAction, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.dialogs.RenderersDialog
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> interICC_SwitchToVideo, 
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.details.MediaListActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.browser.MediaBrowserTvFragment -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+
+org.videolan.vlc.gui.dialogs.SavePlaylistDialog -> org.videolan.vlc.gui.dialogs.DuplicationWarningDialog
+
+org.videolan.vlc.gui.HistoryFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.HistoryFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.HistoryFragment -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.gui.dialogs.WidgetExplanationDialog
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.gui.preferences.widgets.PreferencesWidgets
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.browser.TVActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.browser.VerticalGridActivity
+org.videolan.television.viewmodel.MainTvModel -> org.videolan.television.ui.details.MediaListActivity
+
+org.videolan.vlc.gui.dialogs.JumpToTimeDialog -> interICC_android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.JumpToTimeDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+org.videolan.vlc.gui.dialogs.JumpToTimeDialog -> interICC_android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION, 
+
+org.videolan.vlc.util.Util -> org.videolan.vlc.gui.CompatErrorActivity
+
+org.videolan.vlc.gui.preferences.BasePreferenceFragment -> org.videolan.vlc.gui.preferences.hack.MultiSelectListPreferenceDialogFragmentCompat
+org.videolan.vlc.gui.preferences.BasePreferenceFragment -> org.videolan.vlc.gui.view.NumberPickerPreferenceDialog
+
+org.videolan.vlc.gui.PlaylistFragment -> interICC_new org.videolan.vlc.util.Permissions
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.HeaderMediaListActivity
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.dialogs.ConfirmDeleteDialog
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.dialogs.SavePlaylistDialog
+org.videolan.vlc.gui.PlaylistFragment -> interICC_android.settings.MANAGE_APP_ALL_FILES_ACCESS_PERMISSION, 
+org.videolan.vlc.gui.PlaylistFragment -> org.videolan.vlc.gui.dialogs.ContextSheet
+
+org.videolan.television.ui.preferences.PreferencesFragment -> org.videolan.vlc.gui.SecondaryActivity
+org.videolan.television.ui.preferences.PreferencesFragment -> org.videolan.vlc.gui.dialogs.ConfirmAudioPlayQueueDialog
+
+org.videolan.vlc.extensions.api.tools.Dialogs -> interICC_android.settings.WIFI_SETTINGS, 
+org.videolan.vlc.extensions.api.tools.Dialogs -> org.videolan.vlc.StartActivity
+

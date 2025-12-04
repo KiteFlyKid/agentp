@@ -1,0 +1,32 @@
+
+net.gsantner.markor.activity.IntroActivity -> net.gsantner.markor.activity.IntroActivity
+
+net.gsantner.markor.activity.DocumentActivity -> net.gsantner.markor.activity.StoragePermissionActivity
+
+net.gsantner.markor.activity.MainActivity -> net.gsantner.markor.activity.IntroActivity
+net.gsantner.markor.activity.MainActivity -> net.gsantner.markor.activity.StoragePermissionActivity
+net.gsantner.markor.activity.MainActivity -> other.writeily.widget.WrMarkorWidgetProvider
+
+net.gsantner.markor.activity.SettingsActivity -> other.writeily.widget.WrMarkorWidgetProvider
+net.gsantner.markor.activity.SettingsActivity -> net.gsantner.markor.activity.ActionButtonSettingsActivity
+net.gsantner.markor.activity.SettingsActivity -> net.gsantner.markor.activity.SettingsActivity
+
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity
+other.writeily.widget.WrMarkorWidgetProvider -> other.writeily.widget.WrMarkorWidgetProvider
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.MainActivity
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity
+other.writeily.widget.WrMarkorWidgetProvider -> net.gsantner.markor.activity.MainActivity
+other.writeily.widget.WrMarkorWidgetProvider -> other.writeily.widget.WrFilesWidgetService
+
+net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity -> net.gsantner.markor.activity.MainActivity
+net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity -> net.gsantner.markor.activity.MainActivity
+net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity -> net.gsantner.markor.activity.MainActivity
+net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity -> net.gsantner.markor.activity.MainActivity
+net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity -> net.gsantner.markor.activity.MainActivity
+
+net.gsantner.markor.activity.StoragePermissionActivity -> net.gsantner.markor.activity.StoragePermissionActivity
+
+other.writeily.widget.WrWidgetConfigure -> other.writeily.widget.WrMarkorWidgetProvider
+

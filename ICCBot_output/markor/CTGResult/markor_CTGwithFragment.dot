@@ -1,0 +1,55 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+subgraph cluster_component{ 
+IntroActivity[color = red];
+DocumentActivity[style=filled, fillcolor=pink, color = red];
+ActionButtonSettingsActivity[color = red];
+MainActivity[style=filled, fillcolor=orange, color = red];
+SettingsActivity[color = red];
+OpenFromShortcutOrWidgetActivity[color = red];
+StoragePermissionActivity[color = red];
+WrWidgetConfigure[style=filled, fillcolor=pink, color = red];
+WrFilesWidgetService[color = royalblue];
+WrMarkorWidgetProvider[style=filled, fillcolor=pink, color = peru];
+MarkorBaseFragment[color = teal];
+DocumentEditAndViewFragment[color = teal];
+WrRenameDialog[color = teal];
+MoreInfoFragment[color = teal];
+DocumentShareIntoFragment[color = teal];
+TodoTxtActionButtons[color = teal];
+WrConfirmDialog[color = teal];
+SettingsActivity[color = teal];
+MoreFragment[color = teal];
+FileInfoDialog[color = teal];
+SettingsActivity[color = teal];
+DocumentShareIntoFragment[color = teal];
+NewFileDialog[color = teal];
+IntroActivity->IntroActivity;
+DocumentActivity->StoragePermissionActivity;
+MainActivity->IntroActivity;
+MainActivity->StoragePermissionActivity;
+MainActivity->WrMarkorWidgetProvider;
+SettingsActivity->WrMarkorWidgetProvider;
+SettingsActivity->ActionButtonSettingsActivity;
+SettingsActivity->SettingsActivity;
+StoragePermissionActivity->StoragePermissionActivity;
+MoreFragment->MoreInfoFragment;
+WrMarkorWidgetProvider->OpenFromShortcutOrWidgetActivity;
+WrMarkorWidgetProvider->WrMarkorWidgetProvider;
+WrMarkorWidgetProvider->MainActivity;
+WrMarkorWidgetProvider->WrFilesWidgetService;
+OpenFromShortcutOrWidgetActivity->MainActivity;
+DocumentShareIntoFragment->DocumentShareIntoFragment;
+WrWidgetConfigure->WrMarkorWidgetProvider;
+}
+}

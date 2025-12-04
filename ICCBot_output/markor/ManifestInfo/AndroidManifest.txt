@@ -1,0 +1,1049 @@
+manifest
+- compileSdkVersionCodename: 13
+- package: net.gsantner.markor
+- platformBuildVersionName: 13
+- compileSdkVersion: 33
+- versionName: 2.10.9
+- platformBuildVersionCode: 33
+- versionCode: 146
+	uses-sdk
+	- minSdkVersion: 16
+	- targetSdkVersion: 33
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.READ_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.INSTALL_SHORTCUT
+	uses-permission
+	- name: com.android.launcher.permission.INSTALL_SHORTCUT
+	uses-permission
+	- name: android.permission.RECORD_AUDIO
+	uses-permission
+	- name: android.permission.REQUEST_INSTALL_PACKAGES
+	uses-permission
+	- name: android.permission.MANAGE_EXTERNAL_STORAGE
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-feature
+	- name: android.hardware.type.pc
+	- required: false
+	uses-feature
+	- name: android.hardware.camera
+	- required: false
+	queries
+		package
+		- name: com.android.chrome
+		package
+		- name: com.chrome.beta
+		package
+		- name: com.chrome.dev
+		package
+		- name: com.google.android.apps.chrome
+		package
+		- name: org.chromium.chrome
+		package
+		- name: org.mozilla.fennec_fdroid
+		package
+		- name: org.mozilla.firefox
+		package
+		- name: org.mozilla.firefox_beta
+		package
+		- name: org.mozilla.fennec_aurora
+		package
+		- name: org.mozilla.klar
+		package
+		- name: org.mozilla.focus
+		intent
+			action
+			- name: android.intent.action.VIEW
+			data
+			- scheme: https
+	application
+	- usesCleartextTraffic: true
+	- allowBackup: true
+	- fullBackupContent: 2132017152
+	- icon: 2131230923
+	- appCategory: 7
+	- label: 2131820700
+	- requestLegacyExternalStorage: true
+	- supportsRtl: true
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- name: net.gsantner.markor.ApplicationObject
+	- theme: 2131886100
+	- isGame: false
+	- resizeableActivity: true
+		meta-data
+		- name: android.webkit.WebView.MetricsOptOut
+		- value: true
+		activity
+		- exported: true
+		- windowSoftInputMode: 17
+		- name: net.gsantner.markor.activity.MainActivity
+		- launchMode: 1
+		- label: 2131820700
+		- taskAffinity: .activity.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: net.gsantner.markor.activity.SettingsActivity
+		- label: 2131821376
+		- parentActivityName: net.gsantner.markor.activity.MainActivity
+		activity
+		- name: net.gsantner.markor.activity.StoragePermissionActivity
+		- label: 2131821172
+		- parentActivityName: net.gsantner.markor.activity.MainActivity
+		activity
+		- name: net.gsantner.markor.activity.ActionButtonSettingsActivity
+		- parentActivityName: net.gsantner.markor.activity.SettingsActivity
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: .activity.SettingsActivity
+		activity
+		- exported: true
+		- name: other.writeily.widget.WrWidgetConfigure
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		receiver
+		- exported: true
+		- name: other.writeily.widget.WrMarkorWidgetProvider
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132017154
+		service
+		- name: other.writeily.widget.WrFilesWidgetService
+		- permission: android.permission.BIND_REMOTEVIEWS
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: net.gsantner.markor.provider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2132017158
+		activity
+		- exported: true
+		- noHistory: true
+		- icon: 2131230935
+		- name: net.gsantner.markor.activity.openeditor.OpenEditorTodoActivity
+		- label: 2131821431
+		- taskAffinity: .activity.MainActivity
+		- enabled: false
+			intent-filter
+				category
+				- name: android.intent.category.LAUNCHER
+				action
+				- name: android.intent.action.MAIN
+		activity
+		- name: net.gsantner.markor.activity.IntroActivity
+		- label: 2131820664
+		activity
+		- exported: true
+		- noHistory: true
+		- icon: 2131230929
+		- name: net.gsantner.markor.activity.openeditor.OpenEditorQuickNoteActivity
+		- label: 2131821320
+		- taskAffinity: .activity.MainActivity
+		- enabled: false
+			intent-filter
+				category
+				- name: android.intent.category.LAUNCHER
+				action
+				- name: android.intent.action.MAIN
+		activity
+		- exported: true
+		- noHistory: true
+		- icon: 2131230932
+		- name: net.gsantner.markor.activity.openeditor.OpenShareIntoActivity
+		- label: 2131821379
+		- taskAffinity: .activity.MainActivity
+		- enabled: false
+			intent-filter
+				category
+				- name: android.intent.category.LAUNCHER
+				action
+				- name: android.intent.action.MAIN
+		activity
+		- name: net.gsantner.markor.activity.openeditor.OpenFromShortcutOrWidgetActivity
+		- launchMode: 1
+		- theme: 16973909
+		activity
+		- exported: true
+		- windowSoftInputMode: 17
+		- name: net.gsantner.markor.activity.DocumentActivity
+		- launchMode: 0
+		- theme: 2131886100
+		- label: 2131820700
+		- parentActivityName: net.gsantner.markor.activity.MainActivity
+		- taskAffinity: .activity.DocumentActivity
+		- maxRecents: 5
+			meta-data
+			- name: android.support.PARENT_ACTIVITY
+			- value: net.gsantner.markor.activity.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				action
+				- name: com.google.android.gm.action.AUTO_SEND
+				category
+				- name: com.google.android.voicesearch.SELF_NOTE
+				action
+				- name: android.intent.action.PROCESS_TEXT
+				data
+				- mimeType: text/plain
+				data
+				- mimeType: text/*
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				action
+				- name: android.intent.action.EDIT
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: text/*
+				data
+				- mimeType: text/plain
+				data
+				- mimeType: text/plain+md
+				data
+				- mimeType: text/markdown
+				data
+				- mimeType: text/x-markdown
+				data
+				- mimeType: text/htm
+				data
+				- mimeType: text/html
+			intent-filter
+				action
+				- name: android.intent.action.EDIT
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: content
+				data
+				- scheme: file
+				data
+				- mimeType: text/*
+				data
+				- mimeType: text/plain
+				data
+				- mimeType: text/plain+md
+				data
+				- mimeType: text/markdown
+				data
+				- mimeType: text/x-markdown
+				data
+				- mimeType: application/octet-stream
+				data
+				- host: *
+				data
+				- mimeType: */*
+				- pathPattern: .*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.markdown
+				data
+				- mimeType: */*
+				- pathPattern: .*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.md
+				data
+				- mimeType: */*
+				- pathPattern: .*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.jenc
+				data
+				- mimeType: */*
+				- pathPattern: .*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.mdown
+				data
+				- mimeType: */*
+				- pathPattern: .*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.mdwn
+				data
+				- mimeType: */*
+				- pathPattern: .*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.mkd
+				data
+				- mimeType: */*
+				- pathPattern: .*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.mkdn
+				data
+				- mimeType: */*
+				- pathPattern: .*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.Rmd
+				data
+				- mimeType: */*
+				- pathPattern: .*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.text
+				data
+				- mimeType: */*
+				- pathPattern: .*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.txt
+				data
+				- mimeType: */*
+				- pathPattern: .*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.taskpaper
+				data
+				- mimeType: */*
+				- pathPattern: .*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.adoc
+				data
+				- mimeType: */*
+				- pathPattern: .*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.patch
+				data
+				- mimeType: */*
+				- pathPattern: .*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.diff
+				data
+				- mimeType: */*
+				- pathPattern: .*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.ldg
+				data
+				- mimeType: */*
+				- pathPattern: .*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.ledger
+				data
+				- mimeType: */*
+				- pathPattern: .*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.org
+				data
+				- mimeType: */*
+				- pathPattern: .*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.yml
+				data
+				- mimeType: */*
+				- pathPattern: .*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.yaml
+				data
+				- mimeType: */*
+				- pathPattern: .*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.xlf
+				data
+				- mimeType: */*
+				- pathPattern: .*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.toml
+				data
+				- mimeType: */*
+				- pathPattern: .*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.vcf
+				data
+				- mimeType: */*
+				- pathPattern: .*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.ics
+				data
+				- mimeType: */*
+				- pathPattern: .*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.ini
+				data
+				- mimeType: */*
+				- pathPattern: .*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.json
+				data
+				- mimeType: */*
+				- pathPattern: .*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*.csv
+				data
+				- mimeType: */*
+				- pathPattern: .*..*..*..*..*..*..*..*..*..*.csv
+		provider
+		- exported: false
+		- name: androidx.startup.InitializationProvider
+		- authorities: net.gsantner.markor.androidx-startup
+			meta-data
+			- name: androidx.emoji2.text.EmojiCompatInitializer
+			- value: androidx.startup
+			meta-data
+			- name: androidx.lifecycle.ProcessLifecycleInitializer
+			- value: androidx.startup
+		uses-library
+		- name: androidx.window.extensions
+		- required: false
+		uses-library
+		- name: androidx.window.sidecar
+		- required: false

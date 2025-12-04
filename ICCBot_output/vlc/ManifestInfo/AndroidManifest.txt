@@ -1,0 +1,2074 @@
+manifest
+- compileSdkVersionCodename: 13
+- installLocation: 0
+- package: org.videolan.vlc
+- platformBuildVersionName: 13
+- compileSdkVersion: 33
+- versionName: 3.5.4
+- platformBuildVersionCode: 33
+- versionCode: 13050408
+	uses-sdk
+	- minSdkVersion: 17
+	- targetSdkVersion: 33
+	permission
+	- name: org.videolan.vlc.permission.READ_EXTENSION_DATA
+	- protectionLevel: 0
+	permission
+	- name: org.videolan.vlc.permission.BIND_DATA_CONSUMER
+	- protectionLevel: 0
+	uses-permission
+	- name: org.videolan.vlc.permission.READ_EXTENSION_DATA
+	uses-permission
+	- name: org.videolan.vlc.permission.BIND_DATA_CONSUMER
+	uses-permission
+	- name: android.permission.READ_LOGS
+	- maxSdkVersion: 18
+	uses-permission
+	- name: android.permission.MANAGE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.VIBRATE
+	uses-permission
+	- name: android.permission.WRITE_SETTINGS
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	uses-permission
+	- name: android.permission.INTERNET
+	uses-permission
+	- name: android.permission.RECEIVE_BOOT_COMPLETED
+	uses-permission
+	- name: android.permission.RECORD_AUDIO
+	uses-permission
+	- name: android.permission.FOREGROUND_SERVICE
+	uses-permission
+	- name: android.permission.ACCESS_NETWORK_STATE
+	uses-permission
+	- name: android.permission.WAKE_LOCK
+	uses-permission
+	- name: android.permission.MODIFY_AUDIO_SETTINGS
+	uses-permission
+	- name: android.permission.BLUETOOTH
+	uses-permission
+	- name: android.permission.SYSTEM_ALERT_WINDOW
+	uses-permission
+	- name: com.android.providers.tv.permission.READ_EPG_DATA
+	uses-permission
+	- name: com.android.providers.tv.permission.WRITE_EPG_DATA
+	uses-permission
+	- name: android.permission.POST_NOTIFICATIONS
+	permission
+	- name: org.videolan.vlc.MEDIA
+	- protectionLevel: 2
+	uses-permission
+	- name: org.videolan.vlc.MEDIA
+	uses-feature
+	- name: android.software.leanback
+	- required: false
+	uses-feature
+	- name: android.hardware.touchscreen
+	- required: false
+	uses-feature
+	- name: android.hardware.microphone
+	- required: false
+	uses-feature
+	- name: android.hardware.bluetooth
+	- required: false
+	application
+	- usesCleartextTraffic: true
+	- allowBackup: true
+	- fullBackupContent: 2132148226
+	- icon: 2131689472
+	- banner: 2131230858
+	- appCategory: 1
+	- roundIcon: 2131689472
+	- label: 2131886170
+	- largeHeap: true
+	- requestLegacyExternalStorage: true
+	- supportsRtl: true
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- hardwareAccelerated: true
+	- name: org.videolan.mobile.app.VLCApplication
+	- logo: 2131231375
+	- theme: 2131952315
+		activity
+		- name: org.videolan.television.ui.MainTvActivity
+		- launchMode: 2
+		- theme: 2131952312
+		- label: 2131886170
+		- screenOrientation: 0
+		activity
+		- name: org.videolan.television.ui.OnboardingActivity
+		- theme: 2131952314
+		- label: 2131886170
+		- screenOrientation: 0
+		activity
+		- name: org.videolan.television.ui.dialogs.ConfirmationTvActivity
+		- theme: 2131952312
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.DetailsActivity
+		- theme: 2131952205
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.MediaScrapingTvshowDetailsActivity
+		- theme: 2131952205
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.browser.VerticalGridActivity
+		- theme: 2131952312
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.details.MediaListActivity
+		- theme: 2131952312
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.browser.TVActivity
+		- theme: 2131952292
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.MediaScrapingTvActivity
+		- theme: 2131952312
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- name: org.videolan.television.ui.SearchActivity
+		- theme: 2131952312
+		- screenOrientation: 0
+		activity
+		- exported: true
+		- screenOrientation: 0
+		- name: org.videolan.television.ui.audioplayer.AudioPlayerActivity
+		- launchMode: 2
+		- theme: 2131952313
+		- allowTaskReparenting: true
+		activity
+		- name: org.videolan.television.ui.preferences.PreferencesActivity
+		- theme: 2131952297
+		- screenOrientation: 0
+		activity
+		- name: org.videolan.television.ui.AboutActivity
+		- theme: 2131952292
+		- screenOrientation: 0
+		activity
+		- name: org.videolan.television.ui.ColorPickerActivity
+		- theme: 2131952299
+		- screenOrientation: 0
+		provider
+		- exported: true
+		- name: org.videolan.television.util.TVSearchProvider
+		- authorities: 2131887153
+			path-permission
+			- pathPrefix: /search
+			- readPermission: android.permission.GLOBAL_SEARCH
+		activity
+		- name: org.videolan.moviepedia.ui.MediaScrapingActivity
+		- theme: 2131952287
+		meta-data
+		- name: com.samsung.android.sdk.multiwindow.enable
+		- value: true
+		meta-data
+		- name: com.lge.support.SPLIT_WINDOW
+		- value: true
+		meta-data
+		- name: com.google.android.gms.car.application
+		- resource: 2132148225
+		meta-data
+		- name: com.google.android.gms.car.notification.SmallIcon
+		- resource: 2131231375
+		meta-data
+		- name: android.max_aspect
+		- value: 3.0
+		meta-data
+		- name: android.allow_multiple_resumed_activities
+		- value: true
+		activity
+		- exported: true
+		- name: org.videolan.vlc.StartActivity
+		- theme: 2131952316
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+				category
+				- name: android.intent.category.LEANBACK_LAUNCHER
+			meta-data
+			- name: android.app.shortcuts
+			- resource: 2132148244
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: vlclauncher
+				- host: org.videolan.vlc
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: rtmp
+				data
+				- scheme: rtmpe
+				data
+				- scheme: rtmps
+				data
+				- scheme: rtp
+				data
+				- scheme: rtsp
+				data
+				- scheme: mms
+				data
+				- scheme: mmsh
+				data
+				- scheme: icyx
+				data
+				- scheme: httplive
+				data
+				- scheme: udp
+				data
+				- scheme: vlc
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- mimeType: video/*
+				data
+				- mimeType: audio/*
+				data
+				- scheme: rtmp
+				data
+				- scheme: rtmpe
+				data
+				- scheme: rtmps
+				data
+				- scheme: rtp
+				data
+				- scheme: rtsp
+				data
+				- scheme: mms
+				data
+				- scheme: mmsh
+				data
+				- scheme: icyx
+				data
+				- scheme: httplive
+				data
+				- scheme: udp
+				data
+				- scheme: vlc
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: 
+				data
+				- scheme: file
+				data
+				- scheme: ftp
+				data
+				- scheme: ftps
+				data
+				- scheme: sftp
+				data
+				- scheme: content
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- scheme: smb
+				data
+				- mimeType: video/*
+				data
+				- mimeType: audio/*
+				data
+				- mimeType: */rmvb
+				data
+				- mimeType: */avi
+				data
+				- mimeType: */mkv
+				data
+				- mimeType: application/3gpp*
+				data
+				- mimeType: application/mp4
+				data
+				- mimeType: application/mpeg*
+				data
+				- mimeType: application/ogg
+				data
+				- mimeType: application/sdp
+				data
+				- mimeType: application/vnd.3gp*
+				data
+				- mimeType: application/vnd.apple.mpegurl
+				data
+				- mimeType: application/vnd.dvd*
+				data
+				- mimeType: application/vnd.dolby*
+				data
+				- mimeType: application/vnd.rn-realmedia*
+				data
+				- mimeType: application/x-iso9660-image
+				data
+				- mimeType: application/x-extension-mp4
+				data
+				- mimeType: application/x-flac
+				data
+				- mimeType: application/x-matroska
+				data
+				- mimeType: application/x-mpegURL
+				data
+				- mimeType: application/x-ogg
+				data
+				- mimeType: application/x-quicktimeplayer
+				data
+				- mimeType: application/x-shockwave-flash
+				data
+				- mimeType: application/xspf+xml
+				data
+				- mimeType: misc/ultravox
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.DEFAULT
+				category
+				- name: android.intent.category.BROWSABLE
+				data
+				- scheme: 
+				data
+				- scheme: file
+				data
+				- scheme: ftp
+				data
+				- scheme: content
+				data
+				- scheme: http
+				data
+				- scheme: https
+				data
+				- host: *
+				data
+				- pathPattern: .*.3G2
+				data
+				- pathPattern: .*.3g2
+				data
+				- pathPattern: .*\..*\..*\.3G2
+				data
+				- pathPattern: .*\..*\..*\.3g2
+				data
+				- pathPattern: .*\..*\.3G2
+				data
+				- pathPattern: .*\..*\.3g2
+				data
+				- pathPattern: .*.3GP
+				data
+				- pathPattern: .*.3gp
+				data
+				- pathPattern: .*\..*\..*\.3GP
+				data
+				- pathPattern: .*\..*\..*\.3gp
+				data
+				- pathPattern: .*\..*\.3GP
+				data
+				- pathPattern: .*\..*\.3gp
+				data
+				- pathPattern: .*.3GP2
+				data
+				- pathPattern: .*.3gp2
+				data
+				- pathPattern: .*\..*\..*\.3GP2
+				data
+				- pathPattern: .*\..*\..*\.3gp2
+				data
+				- pathPattern: .*\..*\.3GP2
+				data
+				- pathPattern: .*\..*\.3gp2
+				data
+				- pathPattern: .*.3GPP
+				data
+				- pathPattern: .*.3gpp
+				data
+				- pathPattern: .*\..*\..*\.3GPP
+				data
+				- pathPattern: .*\..*\..*\.3gpp
+				data
+				- pathPattern: .*\..*\.3GPP
+				data
+				- pathPattern: .*\..*\.3gpp
+				data
+				- pathPattern: .*.AMV
+				data
+				- pathPattern: .*.amv
+				data
+				- pathPattern: .*\..*\..*\.AMV
+				data
+				- pathPattern: .*\..*\..*\.amv
+				data
+				- pathPattern: .*\..*\.AMV
+				data
+				- pathPattern: .*\..*\.amv
+				data
+				- pathPattern: .*.ASF
+				data
+				- pathPattern: .*.asf
+				data
+				- pathPattern: .*\..*\..*\.ASF
+				data
+				- pathPattern: .*\..*\..*\.asf
+				data
+				- pathPattern: .*\..*\.ASF
+				data
+				- pathPattern: .*\..*\.asf
+				data
+				- pathPattern: .*.AVI
+				data
+				- pathPattern: .*.avi
+				data
+				- pathPattern: .*\..*\..*\.AVI
+				data
+				- pathPattern: .*\..*\..*\.avi
+				data
+				- pathPattern: .*\..*\.AVI
+				data
+				- pathPattern: .*\..*\.avi
+				data
+				- pathPattern: .*.BIK
+				data
+				- pathPattern: .*.bik
+				data
+				- pathPattern: .*\..*\..*\.BIK
+				data
+				- pathPattern: .*\..*\..*\.bik
+				data
+				- pathPattern: .*\..*\.BIK
+				data
+				- pathPattern: .*\..*\.bik
+				data
+				- pathPattern: .*.DIVX
+				data
+				- pathPattern: .*.divx
+				data
+				- pathPattern: .*\..*\..*\.DIVX
+				data
+				- pathPattern: .*\..*\..*\.divx
+				data
+				- pathPattern: .*\..*\.DIVX
+				data
+				- pathPattern: .*\..*\.divx
+				data
+				- pathPattern: .*.DRC
+				data
+				- pathPattern: .*.drc
+				data
+				- pathPattern: .*\..*\..*\.DRC
+				data
+				- pathPattern: .*\..*\..*\.drc
+				data
+				- pathPattern: .*\..*\.DRC
+				data
+				- pathPattern: .*\..*\.drc
+				data
+				- pathPattern: .*.DV
+				data
+				- pathPattern: .*.dv
+				data
+				- pathPattern: .*\..*\..*\.DV
+				data
+				- pathPattern: .*\..*\..*\.dv
+				data
+				- pathPattern: .*\..*\.DV
+				data
+				- pathPattern: .*\..*\.dv
+				data
+				- pathPattern: .*.F4V
+				data
+				- pathPattern: .*.f4v
+				data
+				- pathPattern: .*\..*\..*\.F4V
+				data
+				- pathPattern: .*\..*\..*\.f4v
+				data
+				- pathPattern: .*\..*\.F4V
+				data
+				- pathPattern: .*\..*\.f4v
+				data
+				- pathPattern: .*.FLV
+				data
+				- pathPattern: .*.flv
+				data
+				- pathPattern: .*\..*\..*\.FLV
+				data
+				- pathPattern: .*\..*\..*\.flv
+				data
+				- pathPattern: .*\..*\.FLV
+				data
+				- pathPattern: .*\..*\.flv
+				data
+				- pathPattern: .*.GVI
+				data
+				- pathPattern: .*.gvi
+				data
+				- pathPattern: .*\..*\..*\.GVI
+				data
+				- pathPattern: .*\..*\..*\.gvi
+				data
+				- pathPattern: .*\..*\.GVI
+				data
+				- pathPattern: .*\..*\.gvi
+				data
+				- pathPattern: .*.GXF
+				data
+				- pathPattern: .*.gxf
+				data
+				- pathPattern: .*\..*\..*\.GXF
+				data
+				- pathPattern: .*\..*\..*\.gxf
+				data
+				- pathPattern: .*\..*\.GXF
+				data
+				- pathPattern: .*\..*\.gxf
+				data
+				- pathPattern: .*.ISMV
+				data
+				- pathPattern: .*.ismv
+				data
+				- pathPattern: .*\..*\..*\.ISMV
+				data
+				- pathPattern: .*\..*\..*\.ismv
+				data
+				- pathPattern: .*\..*\.ISMV
+				data
+				- pathPattern: .*\..*\.ismv
+				data
+				- pathPattern: .*.ISO
+				data
+				- pathPattern: .*.iso
+				data
+				- pathPattern: .*\..*\..*\.ISO
+				data
+				- pathPattern: .*\..*\..*\.iso
+				data
+				- pathPattern: .*\..*\.ISO
+				data
+				- pathPattern: .*\..*\.iso
+				data
+				- pathPattern: .*.M1V
+				data
+				- pathPattern: .*.m1v
+				data
+				- pathPattern: .*\..*\..*\.M1V
+				data
+				- pathPattern: .*\..*\..*\.m1v
+				data
+				- pathPattern: .*\..*\.M1V
+				data
+				- pathPattern: .*\..*\.m1v
+				data
+				- pathPattern: .*.M2T
+				data
+				- pathPattern: .*.m2t
+				data
+				- pathPattern: .*\..*\..*\.M2T
+				data
+				- pathPattern: .*\..*\..*\.m2t
+				data
+				- pathPattern: .*\..*\.M2T
+				data
+				- pathPattern: .*\..*\.m2t
+				data
+				- pathPattern: .*.M2TS
+				data
+				- pathPattern: .*.m2ts
+				data
+				- pathPattern: .*\..*\..*\.M2TS
+				data
+				- pathPattern: .*\..*\..*\.m2ts
+				data
+				- pathPattern: .*\..*\.M2TS
+				data
+				- pathPattern: .*\..*\.m2ts
+				data
+				- pathPattern: .*.M2V
+				data
+				- pathPattern: .*.m2v
+				data
+				- pathPattern: .*\..*\..*\.M2V
+				data
+				- pathPattern: .*\..*\..*\.m2v
+				data
+				- pathPattern: .*\..*\.M2V
+				data
+				- pathPattern: .*\..*\.m2v
+				data
+				- pathPattern: .*.M3U8
+				data
+				- pathPattern: .*.m3u8
+				data
+				- pathPattern: .*\..*\..*\.M3U8
+				data
+				- pathPattern: .*\..*\..*\.m3u8
+				data
+				- pathPattern: .*\..*\.M3U8
+				data
+				- pathPattern: .*\..*\.m3u8
+				data
+				- pathPattern: .*.M4V
+				data
+				- pathPattern: .*.m4v
+				data
+				- pathPattern: .*\..*\..*\.M4V
+				data
+				- pathPattern: .*\..*\..*\.m4v
+				data
+				- pathPattern: .*\..*\.M4V
+				data
+				- pathPattern: .*\..*\.m4v
+				data
+				- pathPattern: .*.MKV
+				data
+				- pathPattern: .*.mkv
+				data
+				- pathPattern: .*\..*\..*\.MKV
+				data
+				- pathPattern: .*\..*\..*\.mkv
+				data
+				- pathPattern: .*\..*\.MKV
+				data
+				- pathPattern: .*\..*\.mkv
+				data
+				- pathPattern: .*.MOV
+				data
+				- pathPattern: .*.mov
+				data
+				- pathPattern: .*\..*\..*\.MOV
+				data
+				- pathPattern: .*\..*\..*\.mov
+				data
+				- pathPattern: .*\..*\.MOV
+				data
+				- pathPattern: .*\..*\.mov
+				data
+				- pathPattern: .*.MP2
+				data
+				- pathPattern: .*.mp2
+				data
+				- pathPattern: .*\..*\..*\.MP2
+				data
+				- pathPattern: .*\..*\..*\.mp2
+				data
+				- pathPattern: .*\..*\.MP2
+				data
+				- pathPattern: .*\..*\.mp2
+				data
+				- pathPattern: .*.MP2V
+				data
+				- pathPattern: .*.mp2v
+				data
+				- pathPattern: .*\..*\..*\.MP2V
+				data
+				- pathPattern: .*\..*\..*\.mp2v
+				data
+				- pathPattern: .*\..*\.MP2V
+				data
+				- pathPattern: .*\..*\.mp2v
+				data
+				- pathPattern: .*.MP4
+				data
+				- pathPattern: .*.mp4
+				data
+				- pathPattern: .*\..*\..*\.MP4
+				data
+				- pathPattern: .*\..*\..*\.mp4
+				data
+				- pathPattern: .*\..*\.MP4
+				data
+				- pathPattern: .*\..*\.mp4
+				data
+				- pathPattern: .*.MP4V
+				data
+				- pathPattern: .*.mp4v
+				data
+				- pathPattern: .*\..*\..*\.MP4V
+				data
+				- pathPattern: .*\..*\..*\.mp4v
+				data
+				- pathPattern: .*\..*\.MP4V
+				data
+				- pathPattern: .*\..*\.mp4v
+				data
+				- pathPattern: .*.MPE
+				data
+				- pathPattern: .*.mpe
+				data
+				- pathPattern: .*\..*\..*\.MPE
+				data
+				- pathPattern: .*\..*\..*\.mpe
+				data
+				- pathPattern: .*\..*\.MPE
+				data
+				- pathPattern: .*\..*\.mpe
+				data
+				- pathPattern: .*.MPEG
+				data
+				- pathPattern: .*.mpeg
+				data
+				- pathPattern: .*\..*\..*\.MPEG
+				data
+				- pathPattern: .*\..*\..*\.mpeg
+				data
+				- pathPattern: .*\..*\.MPEG
+				data
+				- pathPattern: .*\..*\.mpeg
+				data
+				- pathPattern: .*.MPEG1
+				data
+				- pathPattern: .*.mpeg1
+				data
+				- pathPattern: .*\..*\..*\.MPEG1
+				data
+				- pathPattern: .*\..*\..*\.mpeg1
+				data
+				- pathPattern: .*\..*\.MPEG1
+				data
+				- pathPattern: .*\..*\.mpeg1
+				data
+				- pathPattern: .*.MPEG2
+				data
+				- pathPattern: .*.mpeg2
+				data
+				- pathPattern: .*\..*\..*\.MPEG2
+				data
+				- pathPattern: .*\..*\..*\.mpeg2
+				data
+				- pathPattern: .*\..*\.MPEG2
+				data
+				- pathPattern: .*\..*\.mpeg2
+				data
+				- pathPattern: .*.MPEG4
+				data
+				- pathPattern: .*.mpeg4
+				data
+				- pathPattern: .*\..*\..*\.MPEG4
+				data
+				- pathPattern: .*\..*\..*\.mpeg4
+				data
+				- pathPattern: .*\..*\.MPEG4
+				data
+				- pathPattern: .*\..*\.mpeg4
+				data
+				- pathPattern: .*.MPG
+				data
+				- pathPattern: .*.mpg
+				data
+				- pathPattern: .*\..*\..*\.MPG
+				data
+				- pathPattern: .*\..*\..*\.mpg
+				data
+				- pathPattern: .*\..*\.MPG
+				data
+				- pathPattern: .*\..*\.mpg
+				data
+				- pathPattern: .*.MPV2
+				data
+				- pathPattern: .*.mpv2
+				data
+				- pathPattern: .*\..*\..*\.MPV2
+				data
+				- pathPattern: .*\..*\..*\.mpv2
+				data
+				- pathPattern: .*\..*\.MPV2
+				data
+				- pathPattern: .*\..*\.mpv2
+				data
+				- pathPattern: .*.MTS
+				data
+				- pathPattern: .*.mts
+				data
+				- pathPattern: .*\..*\..*\.MTS
+				data
+				- pathPattern: .*\..*\..*\.mts
+				data
+				- pathPattern: .*\..*\.MTS
+				data
+				- pathPattern: .*\..*\.mts
+				data
+				- pathPattern: .*.MTV
+				data
+				- pathPattern: .*.mtv
+				data
+				- pathPattern: .*\..*\..*\.MTV
+				data
+				- pathPattern: .*\..*\..*\.mtv
+				data
+				- pathPattern: .*\..*\.MTV
+				data
+				- pathPattern: .*\..*\.mtv
+				data
+				- pathPattern: .*.MXF
+				data
+				- pathPattern: .*.mxf
+				data
+				- pathPattern: .*\..*\..*\.MXF
+				data
+				- pathPattern: .*\..*\..*\.mxf
+				data
+				- pathPattern: .*\..*\.MXF
+				data
+				- pathPattern: .*\..*\.mxf
+				data
+				- pathPattern: .*.MXG
+				data
+				- pathPattern: .*.mxg
+				data
+				- pathPattern: .*\..*\..*\.MXG
+				data
+				- pathPattern: .*\..*\..*\.mxg
+				data
+				- pathPattern: .*\..*\.MXG
+				data
+				- pathPattern: .*\..*\.mxg
+				data
+				- pathPattern: .*.NSV
+				data
+				- pathPattern: .*.nsv
+				data
+				- pathPattern: .*\..*\..*\.NSV
+				data
+				- pathPattern: .*\..*\..*\.nsv
+				data
+				- pathPattern: .*\..*\.NSV
+				data
+				- pathPattern: .*\..*\.nsv
+				data
+				- pathPattern: .*.NUT
+				data
+				- pathPattern: .*.nut
+				data
+				- pathPattern: .*\..*\..*\.NUT
+				data
+				- pathPattern: .*\..*\..*\.nut
+				data
+				- pathPattern: .*\..*\.NUT
+				data
+				- pathPattern: .*\..*\.nut
+				data
+				- pathPattern: .*.NUV
+				data
+				- pathPattern: .*.nuv
+				data
+				- pathPattern: .*\..*\..*\.NUV
+				data
+				- pathPattern: .*\..*\..*\.nuv
+				data
+				- pathPattern: .*\..*\.NUV
+				data
+				- pathPattern: .*\..*\.nuv
+				data
+				- pathPattern: .*.OGM
+				data
+				- pathPattern: .*.ogm
+				data
+				- pathPattern: .*\..*\..*\.OGM
+				data
+				- pathPattern: .*\..*\..*\.ogm
+				data
+				- pathPattern: .*\..*\.OGM
+				data
+				- pathPattern: .*\..*\.ogm
+				data
+				- pathPattern: .*.OGV
+				data
+				- pathPattern: .*.ogv
+				data
+				- pathPattern: .*\..*\..*\.OGV
+				data
+				- pathPattern: .*\..*\..*\.ogv
+				data
+				- pathPattern: .*\..*\.OGV
+				data
+				- pathPattern: .*\..*\.ogv
+				data
+				- pathPattern: .*.OGX
+				data
+				- pathPattern: .*.ogx
+				data
+				- pathPattern: .*\..*\..*\.OGX
+				data
+				- pathPattern: .*\..*\..*\.ogx
+				data
+				- pathPattern: .*\..*\.OGX
+				data
+				- pathPattern: .*\..*\.ogx
+				data
+				- pathPattern: .*.PS
+				data
+				- pathPattern: .*.ps
+				data
+				- pathPattern: .*\..*\..*\.PS
+				data
+				- pathPattern: .*\..*\..*\.ps
+				data
+				- pathPattern: .*\..*\.PS
+				data
+				- pathPattern: .*\..*\.ps
+				data
+				- pathPattern: .*.REC
+				data
+				- pathPattern: .*.rec
+				data
+				- pathPattern: .*\..*\..*\.REC
+				data
+				- pathPattern: .*\..*\..*\.rec
+				data
+				- pathPattern: .*\..*\.REC
+				data
+				- pathPattern: .*\..*\.rec
+				data
+				- pathPattern: .*.RM
+				data
+				- pathPattern: .*.rm
+				data
+				- pathPattern: .*\..*\..*\.RM
+				data
+				- pathPattern: .*\..*\..*\.rm
+				data
+				- pathPattern: .*\..*\.RM
+				data
+				- pathPattern: .*\..*\.rm
+				data
+				- pathPattern: .*.RMVB
+				data
+				- pathPattern: .*.rmvb
+				data
+				- pathPattern: .*\..*\..*\.RMVB
+				data
+				- pathPattern: .*\..*\..*\.rmvb
+				data
+				- pathPattern: .*\..*\.RMVB
+				data
+				- pathPattern: .*\..*\.rmvb
+				data
+				- pathPattern: .*.TOD
+				data
+				- pathPattern: .*.tod
+				data
+				- pathPattern: .*\..*\..*\.TOD
+				data
+				- pathPattern: .*\..*\..*\.tod
+				data
+				- pathPattern: .*\..*\.TOD
+				data
+				- pathPattern: .*\..*\.tod
+				data
+				- pathPattern: .*.TRP
+				data
+				- pathPattern: .*.trp
+				data
+				- pathPattern: .*\..*\..*\.TRP
+				data
+				- pathPattern: .*\..*\..*\.trp
+				data
+				- pathPattern: .*\..*\.TRP
+				data
+				- pathPattern: .*\..*\.trp
+				data
+				- pathPattern: .*.TS
+				data
+				- pathPattern: .*.ts
+				data
+				- pathPattern: .*\..*\..*\.TS
+				data
+				- pathPattern: .*\..*\..*\.ts
+				data
+				- pathPattern: .*\..*\.TS
+				data
+				- pathPattern: .*\..*\.ts
+				data
+				- pathPattern: .*.TTS
+				data
+				- pathPattern: .*.tts
+				data
+				- pathPattern: .*\..*\..*\.TTS
+				data
+				- pathPattern: .*\..*\..*\.tts
+				data
+				- pathPattern: .*\..*\.TTS
+				data
+				- pathPattern: .*\..*\.tts
+				data
+				- pathPattern: .*.VOB
+				data
+				- pathPattern: .*.vob
+				data
+				- pathPattern: .*\..*\..*\.VOB
+				data
+				- pathPattern: .*\..*\..*\.vob
+				data
+				- pathPattern: .*\..*\.VOB
+				data
+				- pathPattern: .*\..*\.vob
+				data
+				- pathPattern: .*.VRO
+				data
+				- pathPattern: .*.vro
+				data
+				- pathPattern: .*\..*\..*\.VRO
+				data
+				- pathPattern: .*\..*\..*\.vro
+				data
+				- pathPattern: .*\..*\.VRO
+				data
+				- pathPattern: .*\..*\.vro
+				data
+				- pathPattern: .*.WEBM
+				data
+				- pathPattern: .*.webm
+				data
+				- pathPattern: .*\..*\..*\.WEBM
+				data
+				- pathPattern: .*\..*\..*\.webm
+				data
+				- pathPattern: .*\..*\.WEBM
+				data
+				- pathPattern: .*\..*\.webm
+				data
+				- pathPattern: .*.WM
+				data
+				- pathPattern: .*.wm
+				data
+				- pathPattern: .*\..*\..*\.WM
+				data
+				- pathPattern: .*\..*\..*\.wm
+				data
+				- pathPattern: .*\..*\.WM
+				data
+				- pathPattern: .*\..*\.wm
+				data
+				- pathPattern: .*.WMV
+				data
+				- pathPattern: .*.wmv
+				data
+				- pathPattern: .*\..*\..*\.WMV
+				data
+				- pathPattern: .*\..*\..*\.wmv
+				data
+				- pathPattern: .*\..*\.WMV
+				data
+				- pathPattern: .*\..*\.wmv
+				data
+				- pathPattern: .*.WTV
+				data
+				- pathPattern: .*.wtv
+				data
+				- pathPattern: .*\..*\..*\.WTV
+				data
+				- pathPattern: .*\..*\..*\.wtv
+				data
+				- pathPattern: .*\..*\.WTV
+				data
+				- pathPattern: .*\..*\.wtv
+				data
+				- pathPattern: .*.XESC
+				data
+				- pathPattern: .*.xesc
+				data
+				- pathPattern: .*\..*\..*\.XESC
+				data
+				- pathPattern: .*\..*\..*\.xesc
+				data
+				- pathPattern: .*\..*\.XESC
+				data
+				- pathPattern: .*\..*\.xesc
+				data
+				- pathPattern: .*\..*\.3ga
+				data
+				- pathPattern: .*\..*\.3GA
+				data
+				- pathPattern: .*\..*\..*\.3ga
+				data
+				- pathPattern: .*\..*\..*\.3GA
+				data
+				- pathPattern: .*.3ga
+				data
+				- pathPattern: .*.3GA
+				data
+				- pathPattern: .*.669
+				data
+				- pathPattern: .*\..*\.669
+				data
+				- pathPattern: .*\..*\..*\.669
+				data
+				- pathPattern: .*\..*\.a52
+				data
+				- pathPattern: .*\..*\.A52
+				data
+				- pathPattern: .*\..*\..*\.a52
+				data
+				- pathPattern: .*\..*\..*\.A52
+				data
+				- pathPattern: .*.a52
+				data
+				- pathPattern: .*.A52
+				data
+				- pathPattern: .*\..*\.aac
+				data
+				- pathPattern: .*\..*\.AAC
+				data
+				- pathPattern: .*\..*\..*\.aac
+				data
+				- pathPattern: .*\..*\..*\.AAC
+				data
+				- pathPattern: .*.aac
+				data
+				- pathPattern: .*.AAC
+				data
+				- pathPattern: .*\..*\.ac3
+				data
+				- pathPattern: .*\..*\.AC3
+				data
+				- pathPattern: .*\..*\..*\.ac3
+				data
+				- pathPattern: .*\..*\..*\.AC3
+				data
+				- pathPattern: .*.ac3
+				data
+				- pathPattern: .*.AC3
+				data
+				- pathPattern: .*\..*\.adt
+				data
+				- pathPattern: .*\..*\.ADT
+				data
+				- pathPattern: .*\..*\..*\.adt
+				data
+				- pathPattern: .*\..*\..*\.ADT
+				data
+				- pathPattern: .*.adt
+				data
+				- pathPattern: .*.ADT
+				data
+				- pathPattern: .*\..*\.adts
+				data
+				- pathPattern: .*\..*\.ADTS
+				data
+				- pathPattern: .*\..*\..*\.adts
+				data
+				- pathPattern: .*\..*\..*\.ADTS
+				data
+				- pathPattern: .*.adts
+				data
+				- pathPattern: .*.ADTS
+				data
+				- pathPattern: .*\..*\.aif
+				data
+				- pathPattern: .*\..*\.AIF
+				data
+				- pathPattern: .*\..*\..*\.aif
+				data
+				- pathPattern: .*\..*\..*\.AIF
+				data
+				- pathPattern: .*.aif
+				data
+				- pathPattern: .*.AIF
+				data
+				- pathPattern: .*\..*\.aifc
+				data
+				- pathPattern: .*\..*\.AIFC
+				data
+				- pathPattern: .*\..*\..*\.aifc
+				data
+				- pathPattern: .*\..*\..*\.AIFC
+				data
+				- pathPattern: .*.aifc
+				data
+				- pathPattern: .*.AIFC
+				data
+				- pathPattern: .*\..*\.aiff
+				data
+				- pathPattern: .*\..*\.AIFF
+				data
+				- pathPattern: .*\..*\..*\.aiff
+				data
+				- pathPattern: .*\..*\..*\.AIFF
+				data
+				- pathPattern: .*.aiff
+				data
+				- pathPattern: .*.AIFF
+				data
+				- pathPattern: .*\..*\.amr
+				data
+				- pathPattern: .*\..*\.AMR
+				data
+				- pathPattern: .*\..*\..*\.amr
+				data
+				- pathPattern: .*\..*\..*\.AMR
+				data
+				- pathPattern: .*.amr
+				data
+				- pathPattern: .*.AMR
+				data
+				- pathPattern: .*\..*\.aob
+				data
+				- pathPattern: .*\..*\.AOB
+				data
+				- pathPattern: .*\..*\..*\.aob
+				data
+				- pathPattern: .*\..*\..*\.AOB
+				data
+				- pathPattern: .*.aob
+				data
+				- pathPattern: .*.AOB
+				data
+				- pathPattern: .*\..*\.ape
+				data
+				- pathPattern: .*\..*\.APE
+				data
+				- pathPattern: .*\..*\..*\.ape
+				data
+				- pathPattern: .*\..*\..*\.APE
+				data
+				- pathPattern: .*.ape
+				data
+				- pathPattern: .*.APE
+				data
+				- pathPattern: .*\..*\.awb
+				data
+				- pathPattern: .*\..*\.AWB
+				data
+				- pathPattern: .*\..*\..*\.awb
+				data
+				- pathPattern: .*\..*\..*\.AWB
+				data
+				- pathPattern: .*.au
+				data
+				- pathPattern: .*.AU
+				data
+				- pathPattern: .*\..*\.au
+				data
+				- pathPattern: .*\..*\.AU
+				data
+				- pathPattern: .*\..*\..*\.au
+				data
+				- pathPattern: .*\..*\..*\.AU
+				data
+				- pathPattern: .*.aud
+				data
+				- pathPattern: .*.AUD
+				data
+				- pathPattern: .*\..*\.aud
+				data
+				- pathPattern: .*\..*\.AUD
+				data
+				- pathPattern: .*\..*\..*\.aud
+				data
+				- pathPattern: .*\..*\..*\.AUD
+				data
+				- pathPattern: .*.awb
+				data
+				- pathPattern: .*.AWB
+				data
+				- pathPattern: .*\..*\.caf
+				data
+				- pathPattern: .*\..*\.CAF
+				data
+				- pathPattern: .*\..*\..*\.caf
+				data
+				- pathPattern: .*\..*\..*\.CAF
+				data
+				- pathPattern: .*.caf
+				data
+				- pathPattern: .*.CAF
+				data
+				- pathPattern: .*\..*\.dts
+				data
+				- pathPattern: .*\..*\.DTS
+				data
+				- pathPattern: .*\..*\..*\.dts
+				data
+				- pathPattern: .*\..*\..*\.DTS
+				data
+				- pathPattern: .*.dts
+				data
+				- pathPattern: .*.DTS
+				data
+				- pathPattern: .*\..*\.flac
+				data
+				- pathPattern: .*\..*\.FLAC
+				data
+				- pathPattern: .*\..*\..*\.flac
+				data
+				- pathPattern: .*\..*\..*\.FLAC
+				data
+				- pathPattern: .*.flac
+				data
+				- pathPattern: .*.FLAC
+				data
+				- pathPattern: .*\..*\.it
+				data
+				- pathPattern: .*\..*\.IT
+				data
+				- pathPattern: .*\..*\..*\.it
+				data
+				- pathPattern: .*\..*\..*\.IT
+				data
+				- pathPattern: .*.it
+				data
+				- pathPattern: .*.IT
+				data
+				- pathPattern: .*\..*\.m4a
+				data
+				- pathPattern: .*\..*\.M4A
+				data
+				- pathPattern: .*\..*\..*\.m4a
+				data
+				- pathPattern: .*\..*\..*\.M4A
+				data
+				- pathPattern: .*.m4a
+				data
+				- pathPattern: .*.M4A
+				data
+				- pathPattern: .*\..*\.m4b
+				data
+				- pathPattern: .*\..*\.M4B
+				data
+				- pathPattern: .*\..*\..*\.m4b
+				data
+				- pathPattern: .*\..*\..*\.M4B
+				data
+				- pathPattern: .*.m4b
+				data
+				- pathPattern: .*.M4B
+				data
+				- pathPattern: .*\..*\.m4p
+				data
+				- pathPattern: .*\..*\.M4P
+				data
+				- pathPattern: .*\..*\..*\.m4p
+				data
+				- pathPattern: .*\..*\..*\.M4P
+				data
+				- pathPattern: .*.m4p
+				data
+				- pathPattern: .*.M4P
+				data
+				- pathPattern: .*\..*\.mid
+				data
+				- pathPattern: .*\..*\.MID
+				data
+				- pathPattern: .*\..*\..*\.mid
+				data
+				- pathPattern: .*\..*\..*\.MID
+				data
+				- pathPattern: .*.mid
+				data
+				- pathPattern: .*.MID
+				data
+				- pathPattern: .*\..*\.mka
+				data
+				- pathPattern: .*\..*\.MKA
+				data
+				- pathPattern: .*\..*\..*\.mka
+				data
+				- pathPattern: .*\..*\..*\.MKA
+				data
+				- pathPattern: .*.mka
+				data
+				- pathPattern: .*.MKA
+				data
+				- pathPattern: .*\..*\.mlp
+				data
+				- pathPattern: .*\..*\.MLP
+				data
+				- pathPattern: .*\..*\..*\.mlp
+				data
+				- pathPattern: .*\..*\..*\.MLP
+				data
+				- pathPattern: .*.mlp
+				data
+				- pathPattern: .*.MLP
+				data
+				- pathPattern: .*\..*\.mod
+				data
+				- pathPattern: .*\..*\.MOD
+				data
+				- pathPattern: .*\..*\..*\.mod
+				data
+				- pathPattern: .*\..*\..*\.MOD
+				data
+				- pathPattern: .*.mod
+				data
+				- pathPattern: .*.MOD
+				data
+				- pathPattern: .*\..*\.mp1
+				data
+				- pathPattern: .*\..*\.MP1
+				data
+				- pathPattern: .*\..*\..*\.mp1
+				data
+				- pathPattern: .*\..*\..*\.MP1
+				data
+				- pathPattern: .*.mp1
+				data
+				- pathPattern: .*.MP1
+				data
+				- pathPattern: .*\..*\.mp2
+				data
+				- pathPattern: .*\..*\.MP2
+				data
+				- pathPattern: .*\..*\..*\.mp2
+				data
+				- pathPattern: .*\..*\..*\.MP2
+				data
+				- pathPattern: .*.mp2
+				data
+				- pathPattern: .*.MP2
+				data
+				- pathPattern: .*\..*\.mp3
+				data
+				- pathPattern: .*\..*\.MP3
+				data
+				- pathPattern: .*\..*\..*\.mp3
+				data
+				- pathPattern: .*\..*\..*\.MP3
+				data
+				- pathPattern: .*.mp3
+				data
+				- pathPattern: .*.MP3
+				data
+				- pathPattern: .*\..*\.mpa
+				data
+				- pathPattern: .*\..*\.MPA
+				data
+				- pathPattern: .*\..*\..*\.mpa
+				data
+				- pathPattern: .*\..*\..*\.MPA
+				data
+				- pathPattern: .*.mpa
+				data
+				- pathPattern: .*.MPA
+				data
+				- pathPattern: .*\..*\.mpc
+				data
+				- pathPattern: .*\..*\.MPC
+				data
+				- pathPattern: .*\..*\..*\.mpc
+				data
+				- pathPattern: .*\..*\..*\.MPC
+				data
+				- pathPattern: .*.mpc
+				data
+				- pathPattern: .*.MPC
+				data
+				- pathPattern: .*\..*\.mpga
+				data
+				- pathPattern: .*\..*\.MPGA
+				data
+				- pathPattern: .*\..*\..*\.mpga
+				data
+				- pathPattern: .*\..*\..*\.MPGA
+				data
+				- pathPattern: .*.mpga
+				data
+				- pathPattern: .*.MPGA
+				data
+				- pathPattern: .*\..*\.oga
+				data
+				- pathPattern: .*\..*\.OGA
+				data
+				- pathPattern: .*\..*\..*\.oga
+				data
+				- pathPattern: .*\..*\..*\.OGA
+				data
+				- pathPattern: .*.oga
+				data
+				- pathPattern: .*.OGA
+				data
+				- pathPattern: .*\..*\.ogg
+				data
+				- pathPattern: .*\..*\.OGG
+				data
+				- pathPattern: .*\..*\..*\.ogg
+				data
+				- pathPattern: .*\..*\..*\.OGG
+				data
+				- pathPattern: .*.ogg
+				data
+				- pathPattern: .*.OGG
+				data
+				- pathPattern: .*\..*\.oma
+				data
+				- pathPattern: .*\..*\.OMA
+				data
+				- pathPattern: .*\..*\..*\.oma
+				data
+				- pathPattern: .*\..*\..*\.OMA
+				data
+				- pathPattern: .*.oma
+				data
+				- pathPattern: .*.OMA
+				data
+				- pathPattern: .*\..*\.opus
+				data
+				- pathPattern: .*\..*\.OPUS
+				data
+				- pathPattern: .*\..*\..*\.opus
+				data
+				- pathPattern: .*\..*\..*\.OPUS
+				data
+				- pathPattern: .*.opus
+				data
+				- pathPattern: .*.OPUS
+				data
+				- pathPattern: .*\..*\.ra
+				data
+				- pathPattern: .*\..*\.RA
+				data
+				- pathPattern: .*\..*\..*\.ra
+				data
+				- pathPattern: .*\..*\..*\.RA
+				data
+				- pathPattern: .*.ra
+				data
+				- pathPattern: .*.RA
+				data
+				- pathPattern: .*\..*\.rmi
+				data
+				- pathPattern: .*\..*\.RMI
+				data
+				- pathPattern: .*\..*\..*\.rmi
+				data
+				- pathPattern: .*\..*\..*\.RMI
+				data
+				- pathPattern: .*.rmi
+				data
+				- pathPattern: .*.RMI
+				data
+				- pathPattern: .*\..*\.s3m
+				data
+				- pathPattern: .*\..*\.S3M
+				data
+				- pathPattern: .*\..*\..*\.s3m
+				data
+				- pathPattern: .*\..*\..*\.S3M
+				data
+				- pathPattern: .*.s3m
+				data
+				- pathPattern: .*.S3M
+				data
+				- pathPattern: .*\..*\.spx
+				data
+				- pathPattern: .*\..*\.SPX
+				data
+				- pathPattern: .*\..*\..*\.spx
+				data
+				- pathPattern: .*\..*\..*\.SPX
+				data
+				- pathPattern: .*.spx
+				data
+				- pathPattern: .*.SPX
+				data
+				- pathPattern: .*\..*\.tta
+				data
+				- pathPattern: .*\..*\.TTA
+				data
+				- pathPattern: .*\..*\..*\.tta
+				data
+				- pathPattern: .*\..*\..*\.TTA
+				data
+				- pathPattern: .*.tta
+				data
+				- pathPattern: .*.TTA
+				data
+				- pathPattern: .*\..*\.voc
+				data
+				- pathPattern: .*\..*\.VOC
+				data
+				- pathPattern: .*\..*\..*\.voc
+				data
+				- pathPattern: .*\..*\..*\.VOC
+				data
+				- pathPattern: .*.voc
+				data
+				- pathPattern: .*.VOC
+				data
+				- pathPattern: .*\..*\.vqf
+				data
+				- pathPattern: .*\..*\.VQF
+				data
+				- pathPattern: .*\..*\..*\.vqf
+				data
+				- pathPattern: .*\..*\..*\.VQF
+				data
+				- pathPattern: .*.vqf
+				data
+				- pathPattern: .*.VQF
+				data
+				- pathPattern: .*\..*\.w64
+				data
+				- pathPattern: .*\..*\.W64
+				data
+				- pathPattern: .*\..*\..*\.w64
+				data
+				- pathPattern: .*\..*\..*\.W64
+				data
+				- pathPattern: .*.w64
+				data
+				- pathPattern: .*.W64
+				data
+				- pathPattern: .*\..*\.wav
+				data
+				- pathPattern: .*\..*\.WAV
+				data
+				- pathPattern: .*\..*\..*\.wav
+				data
+				- pathPattern: .*\..*\..*\.WAV
+				data
+				- pathPattern: .*.wav
+				data
+				- pathPattern: .*.WAV
+				data
+				- pathPattern: .*\..*\.wma
+				data
+				- pathPattern: .*\..*\.WMA
+				data
+				- pathPattern: .*\..*\..*\.wma
+				data
+				- pathPattern: .*\..*\..*\.WMA
+				data
+				- pathPattern: .*.wma
+				data
+				- pathPattern: .*.WMA
+				data
+				- pathPattern: .*\..*\.wv
+				data
+				- pathPattern: .*\..*\.WV
+				data
+				- pathPattern: .*\..*\..*\.wv
+				data
+				- pathPattern: .*\..*\..*\.WV
+				data
+				- pathPattern: .*.wv
+				data
+				- pathPattern: .*.WV
+				data
+				- pathPattern: .*\..*\.xa
+				data
+				- pathPattern: .*\..*\.XA
+				data
+				- pathPattern: .*\..*\..*\.xa
+				data
+				- pathPattern: .*\..*\..*\.XA
+				data
+				- pathPattern: .*.xa
+				data
+				- pathPattern: .*.XA
+				data
+				- pathPattern: .*\..*\.xm
+				data
+				- pathPattern: .*\..*\.XM
+				data
+				- pathPattern: .*\..*\..*\.xm
+				data
+				- pathPattern: .*\..*\..*\.XM
+				data
+				- pathPattern: .*.xm
+				data
+				- pathPattern: .*.XM
+				data
+				- pathPattern: .*.asx
+				data
+				- pathPattern: .*.ASX
+				data
+				- pathPattern: .*\..*\.asx
+				data
+				- pathPattern: .*\..*\.ASX
+				data
+				- pathPattern: .*\..*\..*\.asx
+				data
+				- pathPattern: .*\..*\..*\.ASX
+				data
+				- pathPattern: .*.b4s
+				data
+				- pathPattern: .*.B4S
+				data
+				- pathPattern: .*\..*\.b4s
+				data
+				- pathPattern: .*\..*\.B4S
+				data
+				- pathPattern: .*\..*\..*\.b4s
+				data
+				- pathPattern: .*\..*\..*\.B4S
+				data
+				- pathPattern: .*.m3u
+				data
+				- pathPattern: .*.M3U
+				data
+				- pathPattern: .*\..*\.m3u
+				data
+				- pathPattern: .*\..*\.M3U
+				data
+				- pathPattern: .*\..*\..*\.m3u
+				data
+				- pathPattern: .*\..*\..*\.M3U
+				data
+				- pathPattern: .*.m3u8
+				data
+				- pathPattern: .*.M3U8
+				data
+				- pathPattern: .*\..*\.m3u8
+				data
+				- pathPattern: .*\..*\.M3U8
+				data
+				- pathPattern: .*\..*\..*\.m3u8
+				data
+				- pathPattern: .*\..*\..*\.M3U8
+				data
+				- pathPattern: .*.pls
+				data
+				- pathPattern: .*.PLS
+				data
+				- pathPattern: .*\..*\.pls
+				data
+				- pathPattern: .*\..*\.PLS
+				data
+				- pathPattern: .*\..*\..*\.pls
+				data
+				- pathPattern: .*\..*\..*\.PLS
+				data
+				- pathPattern: .*.ram
+				data
+				- pathPattern: .*.RAM
+				data
+				- pathPattern: .*\..*\.ram
+				data
+				- pathPattern: .*\..*\.RAM
+				data
+				- pathPattern: .*\..*\..*\.ram
+				data
+				- pathPattern: .*\..*\..*\.RAM
+				data
+				- pathPattern: .*.wpl
+				data
+				- pathPattern: .*.WPL
+				data
+				- pathPattern: .*\..*\.wpl
+				data
+				- pathPattern: .*\..*\.WPL
+				data
+				- pathPattern: .*\..*\..*\.wpl
+				data
+				- pathPattern: .*\..*\..*\.WPL
+				data
+				- pathPattern: .*.xspf
+				data
+				- pathPattern: .*.XSPF
+				data
+				- pathPattern: .*\..*\.xspf
+				data
+				- pathPattern: .*\..*\.XSPF
+				data
+				- pathPattern: .*\..*\..*\.xspf
+				data
+				- pathPattern: .*\..*\..*\.XSPF
+			intent-filter
+			- label: Play with VLC
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: */*
+			intent-filter
+				action
+				- name: android.intent.action.SEARCH
+			intent-filter
+				action
+				- name: com.google.android.gms.actions.SEARCH_ACTION
+				category
+				- name: android.intent.category.DEFAULT
+			meta-data
+			- name: android.app.searchable
+			- resource: 2132148243
+			intent-filter
+				action
+				- name: android.media.action.MEDIA_PLAY_FROM_SEARCH
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- windowSoftInputMode: 32
+		- icon: 2131231375
+		- name: org.videolan.vlc.gui.MainActivity
+		- launchMode: 2
+		- theme: 2131952287
+		- label: 2131886170
+			meta-data
+			- name: android.app.searchable
+			- resource: 2132148243
+		activity
+		- name: org.videolan.vlc.gui.onboarding.OnboardingActivity
+		- theme: 2131952302
+		activity
+		- name: org.videolan.vlc.gui.SecondaryActivity
+		- windowSoftInputMode: 32
+		- theme: 2131952287
+		activity
+		- name: org.videolan.vlc.gui.HeaderMediaListActivity
+		- theme: 2131952300
+		activity
+		- name: org.videolan.vlc.gui.InfoActivity
+		- theme: 2131952300
+		activity
+		- name: org.videolan.vlc.gui.LibrariesActivity
+		- theme: 2131952287
+		activity
+		- name: org.videolan.vlc.gui.AuthorsActivity
+		- theme: 2131952287
+		activity
+		- name: org.videolan.vlc.gui.SearchActivity
+		- theme: 2131952287
+		activity
+		- exported: true
+		- icon: 2131689473
+		- name: org.videolan.vlc.gui.SendCrashActivity
+		- launchMode: 2
+		- theme: 2131952311
+		- excludeFromRecents: true
+		- label: 2131887202
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- name: org.videolan.vlc.gui.BetaWelcomeActivity
+		- theme: 2131952311
+		activity
+		- name: org.videolan.vlc.gui.browser.FilePickerActivity
+		- theme: 2131952304
+		activity
+		- name: org.videolan.vlc.gui.preferences.PreferencesActivity
+		- theme: 2131952287
+		activity
+		- name: org.videolan.vlc.gui.preferences.search.PreferenceSearchActivity
+		- theme: 2131952287
+		activity
+		- exported: true
+		- name: org.videolan.vlc.gui.video.VideoPlayerActivity
+		- finishOnTaskLaunch: true
+		- launchMode: 2
+		- supportsPictureInPicture: true
+		- configChanges: 4080
+		- theme: 2131952309
+		- resizeableActivity: true
+			intent-filter
+				action
+				- name: com.samsung.android.support.REMOTE_ACTION
+			meta-data
+			- name: com.samsung.android.support.REMOTE_ACTION
+			- resource: 2132148224
+		activity
+		- name: org.videolan.vlc.gui.DialogActivity
+		- configChanges: 1152
+		- theme: 2131952451
+		- label: 
+		activity
+		- exported: true
+		- noHistory: true
+		- name: org.videolan.vlc.widget.MiniPlayerConfigureActivity
+		- launchMode: 1
+		- theme: 2131952880
+		- excludeFromRecents: true
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				action
+				- name: android.appwidget.action.APPWIDGET_CONFIGURE
+		service
+		- name: org.videolan.vlc.extensions.ExtensionManagerService
+		service
+		- exported: true
+		- name: org.videolan.vlc.PlaybackService
+		- foregroundServiceType: 2
+			intent-filter
+				action
+				- name: android.media.browse.MediaBrowserService
+		service
+		- name: org.videolan.vlc.MediaParsingService
+		- foregroundServiceType: 32
+		receiver
+		- exported: false
+		- name: org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+		- label: 2131887222
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: org.videolan.vlc.widget.INIT
+				action
+				- name: org.videolan.vlc.widget.UPDATE
+				action
+				- name: org.videolan.vlc.widget.UPDATE_COVER
+				action
+				- name: org.videolan.vlc.widget.UPDATE_POSITION
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132148252
+		receiver
+		- exported: false
+		- name: org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+		- label: 2131887220
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: org.videolan.vlc.widget.INIT
+				action
+				- name: org.videolan.vlc.widget.UPDATE
+				action
+				- name: org.videolan.vlc.widget.UPDATE_COVER
+				action
+				- name: org.videolan.vlc.widget.UPDATE_POSITION
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132148250
+		receiver
+		- exported: true
+		- name: org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+		- label: 2131887221
+			intent-filter
+				action
+				- name: android.appwidget.action.APPWIDGET_UPDATE
+				action
+				- name: org.videolan.vlc.widget.mini.INIT
+				action
+				- name: org.videolan.vlc.widget.mini.UPDATE
+				action
+				- name: org.videolan.vlc.widget.mini.UPDATE_COVER
+				action
+				- name: org.videolan.vlc.widget.mini.UPDATE_POSITION
+			meta-data
+			- name: android.appwidget.provider
+			- resource: 2132148251
+		receiver
+		- exported: true
+		- name: androidx.media.session.MediaButtonReceiver
+			intent-filter
+				action
+				- name: android.intent.action.MEDIA_BUTTON
+		activity
+		- exported: true
+		- screenOrientation: 0
+		- name: org.videolan.vlc.gui.video.benchmark.BenchActivity
+		- launchMode: 3
+		- configChanges: 3456
+		- theme: 2131952309
+		service
+		- exported: false
+		- name: org.videolan.vlc.RecommendationsService
+		receiver
+		- exported: true
+		- name: org.videolan.vlc.TvReceiver
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.BOOT_COMPLETED
+				action
+				- name: android.media.tv.action.PREVIEW_PROGRAM_ADDED_TO_WATCH_NEXT
+				action
+				- name: android.media.tv.ACTION_WATCH_NEXT_PROGRAM_BROWSABLE_DISABLED
+				action
+				- name: android.media.tv.action.PREVIEW_PROGRAM_BROWSABLE_DISABLED
+				action
+				- name: android.media.tv.action.INITIALIZE_PROGRAMS
+				category
+				- name: android.intent.category.DEFAULT
+		receiver
+		- exported: true
+		- name: org.videolan.vlc.StoragesMonitor
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MEDIA_MOUNTED
+				action
+				- name: android.intent.action.MEDIA_REMOVED
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- scheme: file
+		provider
+		- exported: true
+		- name: org.videolan.vlc.FileProvider
+		- authorities: org.videolan.vlc.thumbprovider
+		provider
+		- exported: true
+		- name: org.videolan.vlc.ArtworkProvider
+		- authorities: org.videolan.vlc.artwork
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: org.videolan.vlc.provider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2132148242
+		service
+		- exported: false
+		- name: org.videolan.vlc.PreviewVideoInputService
+		- permission: android.permission.BIND_TV_INPUT
+			intent-filter
+				action
+				- name: android.media.tv.TvInputService
+			meta-data
+			- name: android.media.tv.input
+			- resource: 2132148241
+		activity
+		- name: org.videolan.vlc.gui.DebugLogActivity
+		- launchMode: 1
+		- theme: 2131952287
+		service
+		- name: org.videolan.vlc.DebugLogService
+		- process: :logger
+		uses-library
+		- name: androidx.window.extensions
+		- required: false
+		uses-library
+		- name: androidx.window.sidecar
+		- required: false
+		activity
+		- name: org.videolan.vlc.extensions.api.WarningActivity
+		- theme: 2131952419
+		provider
+		- exported: false
+		- name: androidx.startup.InitializationProvider
+		- authorities: org.videolan.vlc.androidx-startup
+			meta-data
+			- name: androidx.emoji2.text.EmojiCompatInitializer
+			- value: androidx.startup
+			meta-data
+			- name: androidx.lifecycle.ProcessLifecycleInitializer
+			- value: androidx.startup
+		service
+		- exported: false
+		- name: androidx.room.MultiInstanceInvalidationService
+		- directBootAware: true

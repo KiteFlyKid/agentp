@@ -1,0 +1,345 @@
+
+org.videolan.vlc.DebugLogService -> org.videolan.vlc.gui.DebugLogActivity
+org.videolan.vlc.DebugLogService -> org.videolan.vlc.DebugLogService
+
+org.videolan.television.ui.browser.VerticalGridActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.browser.VerticalGridActivity -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.television.ui.browser.TVActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.browser.TVActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.details.MediaListActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.MainActivity -> org.videolan.vlc.gui.SearchActivity
+
+org.videolan.vlc.MediaParsingService -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderWhite -> org.videolan.vlc.PlaybackService
+
+org.videolan.television.ui.DetailsActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.DetailsActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.dialogs.ConfirmationTvActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.RecommendationsService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.TvReceiver -> org.videolan.vlc.RecommendationsService
+
+org.videolan.television.ui.SearchActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.SearchActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.television.ui.preferences.PreferencesActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.preferences.PreferencesActivity -> org.videolan.television.ui.SearchActivity
+
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.VLCAppWidgetProviderBlack -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.extensions.api.WarningActivity -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.onboarding.OnboardingActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.vlc.StartActivity -> org.videolan.television.ui.OnboardingActivity
+
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.extensions.ExtensionManagerService
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderWhite
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.VLCAppWidgetProviderBlack
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.StartActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.PlaybackService -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.VideoPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.browser.FilePickerActivity -> org.videolan.vlc.gui.InfoActivity
+org.videolan.vlc.gui.browser.FilePickerActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.browser.FilePickerActivity -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.AuthorsActivity
+org.videolan.television.ui.AboutActivity -> org.videolan.vlc.gui.LibrariesActivity
+
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.television.ui.audioplayer.AudioPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.vlc.gui.video.benchmark.BenchActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.preferences.PreferencesActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.preferences.search.PreferenceSearchActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.DebugLogActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.browser.FilePickerActivity
+org.videolan.vlc.gui.preferences.PreferencesActivity -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerAppWidgetProvider -> org.videolan.vlc.PlaybackService
+
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerAppWidgetProvider
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.PlaybackService
+org.videolan.vlc.widget.MiniPlayerConfigureActivity -> org.videolan.vlc.widget.MiniPlayerConfigureActivity
+
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.MainActivity
+org.videolan.vlc.gui.onboarding.OnboardingActivity -> org.videolan.vlc.gui.SecondaryActivity
+
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.television.ui.dialogs.ConfirmationTvActivity
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MediaScrapingTvActivity -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.DetailsActivity
+org.videolan.television.ui.MainTvActivity -> org.videolan.vlc.StartActivity
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.MainTvActivity
+org.videolan.television.ui.MainTvActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.MainTvActivity -> org.videolan.vlc.gui.DialogActivity
+
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.StartActivity
+org.videolan.vlc.gui.DialogActivity -> org.videolan.vlc.StartActivity
+
+org.videolan.vlc.gui.HeaderMediaListActivity -> org.videolan.vlc.gui.InfoActivity
+
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.SearchActivity
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.vlc.gui.SecondaryActivity -> org.videolan.vlc.gui.SearchActivity
+
+org.videolan.vlc.gui.DebugLogActivity -> org.videolan.vlc.DebugLogService
+
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.television.ui.SearchActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+org.videolan.television.ui.audioplayer.AudioPlayerActivity -> org.videolan.vlc.gui.video.VideoPlayerActivity
+
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> org.videolan.vlc.gui.DialogActivity
+org.videolan.television.ui.MediaScrapingTvshowDetailsActivity -> org.videolan.television.ui.SearchActivity
+

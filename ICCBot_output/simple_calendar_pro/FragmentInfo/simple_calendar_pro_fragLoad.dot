@@ -1,0 +1,43 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+SplashActivity[style=filled, fillcolor=orange, color = red];
+WidgetDateConfigureActivity[style=filled, fillcolor=pink, color = red];
+SelectTimeZoneActivity[color = red];
+SettingsActivity[style=filled, fillcolor=pink, color = red];
+ManageEventTypesActivity[color = red];
+SnoozeReminderActivity[color = red];
+MainActivity[style=filled, fillcolor=pink, color = red];
+AboutActivity[color = red];
+TaskActivity[color = red];
+LicenseActivity[color = red];
+WidgetMonthlyConfigureActivity[style=filled, fillcolor=pink, color = red];
+EventActivity[style=filled, fillcolor=pink, color = red];
+CustomizationActivity[color = red];
+FAQActivity[color = red];
+EventTypePickerActivity[color = red];
+WidgetListConfigureActivity[style=filled, fillcolor=pink, color = red];
+ContributorsActivity[color = red];
+CalDAVUpdateListener[style=filled, fillcolor=pink, color = royalblue];
+WidgetService[style=filled, fillcolor=pink, color = royalblue];
+SnoozeService[color = royalblue];
+WidgetServiceEmpty[style=filled, fillcolor=pink, color = royalblue];
+MarkCompletedService[color = royalblue];
+AutomaticBackupReceiver[color = peru];
+MyWidgetListProvider[style=filled, fillcolor=pink, color = peru];
+MyWidgetMonthlyProvider[style=filled, fillcolor=pink, color = peru];
+CalDAVSyncReceiver[color = peru];
+BootCompletedReceiver[style=filled, fillcolor=pink, color = peru];
+SharedThemeReceiver[style=filled, fillcolor=pink, color = peru];
+NotificationReceiver[color = peru];
+MyWidgetDateProvider[style=filled, fillcolor=pink, color = peru];
+}

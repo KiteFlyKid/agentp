@@ -1,0 +1,1219 @@
+
+org.tasks.etebase.EtebaseAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.etebase.EtebaseAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.auth.MicrosoftAuthenticationActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.MicrosoftAuthenticationActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+at.bitfire.cert4android.CustomCertService -> at.bitfire.cert4android.CustomCertService
+at.bitfire.cert4android.CustomCertService -> at.bitfire.cert4android.TrustCertificateActivity
+at.bitfire.cert4android.CustomCertService -> at.bitfire.cert4android.TrustCertificateActivity
+
+org.tasks.data.Place -> interICC_android.intent.action.VIEW, 
+
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> interICC_android.intent.action.VIEW, 
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.activity.TaskEditFragment -> org.tasks.reminders.SnoozeActivity
+
+at.bitfire.cert4android.TrustCertificateActivity -> at.bitfire.cert4android.CustomCertService
+at.bitfire.cert4android.TrustCertificateActivity -> at.bitfire.cert4android.CustomCertService
+
+org.tasks.dashclock.DashClockSettings -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.preferences.fragments.NavigationDrawer -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Widgets -> interICC_android.intent.action.VIEW, 
+
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.NotificationActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.reminders.NotificationActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.NotificationActivity -> org.tasks.reminders.SnoozeActivity
+
+org.tasks.preferences.fragments.HelpAndFeedback -> interICC_android.intent.action.SENDTO, 
+org.tasks.preferences.fragments.HelpAndFeedback -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_TaskListPreferences -> interICC_android.intent.action.VIEW, 
+
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetFilterSelectionActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetClickActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.WidgetConfigActivity
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.TasksWidget -> org.tasks.widget.ScrollableWidgetUpdateService
+org.tasks.widget.TasksWidget -> com.todoroo.astrid.activity.MainActivity
+
+com.todoroo.astrid.adapter.SubheaderClickHandler -> org.tasks.preferences.MainPreferences
+
+org.tasks.preferences.fragments.TaskerListNotification -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.TaskerListNotification -> interICC_android.intent.action.VIEW, 
+
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.caldav.CaldavCalendarSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.activities.PlaceSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.caldav.LocalListSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.activities.FilterSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.activities.TagSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.opentasks.OpenTasksListSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.etebase.EtebaseCalendarSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.sync.microsoft.MicrosoftListSettingsActivity
+org.tasks.activities.NavigationDrawerCustomization -> org.tasks.activities.GoogleTaskListSettingsActivity
+
+org.tasks.ui.TaskListViewModel -> interICC_android.intent.action.VIEW, 
+
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.caldav.iCalendar -> org.tasks.reminders.NotificationActivity
+org.tasks.caldav.iCalendar -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.iCalendar -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.iCalendar -> org.tasks.notifications.NotificationClearedReceiver
+
+org.tasks.widget.WidgetConfigActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.preferences.fragments.Hilt_HelpAndFeedback -> interICC_android.intent.action.VIEW, 
+
+org.tasks.locale.ui.activity.TaskerSettingsActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.preferences.fragments.Hilt_Debug -> interICC_android.intent.action.VIEW, 
+
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> org.tasks.ui.EmptyTaskEditFragment
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.MainActivity -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.Advanced -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+org.tasks.preferences.fragments.Advanced -> interICC_android.intent.action.VIEW, 
+
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.timers.TimerControlSet -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerControlSet -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.auth.SignInViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.SignInViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.SignInViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.NotificationActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationClearedReceiver -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationClearedReceiver -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.GoogleTasksAccount -> com.todoroo.astrid.gtasks.auth.GtasksLoginActivity
+org.tasks.preferences.fragments.GoogleTasksAccount -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.GoogleTasksAccount -> org.tasks.billing.PurchaseActivity
+
+org.tasks.preferences.ManageSpaceActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.NotificationActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.etebase.EtebaseSynchronizer -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.NotificationActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.caldav.CaldavSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.caldav.CaldavSynchronizer -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.Debug -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_NavigationDrawer -> interICC_android.intent.action.VIEW, 
+
+net.openid.appauth.RedirectUriReceiverActivity -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.RedirectUriReceiverActivity -> net.openid.appauth.AuthorizationManagementActivity
+
+org.tasks.dialogs.NewFilterDialog -> org.tasks.activities.FilterSettingsActivity
+org.tasks.dialogs.NewFilterDialog -> org.tasks.activities.FilterSettingsActivity
+
+org.tasks.billing.Inventory -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_TaskDefaults -> interICC_android.intent.action.VIEW, 
+
+org.tasks.activities.FilterSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.TasksAccount -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.TasksAccount -> org.tasks.auth.SignInActivity
+org.tasks.preferences.fragments.TasksAccount -> org.tasks.billing.PurchaseActivity
+
+org.tasks.activities.UriHandler -> com.todoroo.astrid.activity.MainActivity
+org.tasks.activities.UriHandler -> com.todoroo.astrid.activity.MainActivity
+org.tasks.activities.UriHandler -> com.todoroo.astrid.activity.MainActivity
+org.tasks.activities.UriHandler -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.Hilt_TaskerListNotification -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.Hilt_MainPreferences -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.scheduling.NotificationSchedulerIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.NotificationActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.scheduling.NotificationSchedulerIntentService -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.sync.microsoft.AppAuthExtensionsKt -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.sync.microsoft.AppAuthExtensionsKt -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.preferences.fragments.DashClock -> interICC_android.intent.action.VIEW, 
+
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.NotificationActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.reminders.SnoozeActivity -> org.tasks.reminders.SnoozeActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.activities.DateAndTimePickerActivity
+org.tasks.reminders.SnoozeActivity -> org.tasks.receivers.CompleteTaskReceiver
+
+org.tasks.files.FileHelper -> interICC_android.intent.action.VIEW, 
+org.tasks.files.FileHelper -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+org.tasks.auth.Configuration -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.etesync.Hilt_EteSyncAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.etesync.Hilt_EteSyncAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.caldav.BaseCaldavAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.caldav.BaseCaldavAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.opentasks.OpenTaskAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.etesync.EteSyncAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.preferences.fragments.TasksAccount
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.caldav.CaldavAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.etebase.EtebaseAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.caldav.CaldavAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> com.todoroo.astrid.gtasks.auth.GtasksLoginActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.etebase.EtebaseAccountSettingsActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.preferences.fragments.MicrosoftAccount
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.preferences.fragments.GoogleTasksAccount
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.MainSettingsFragment -> org.tasks.auth.SignInActivity
+
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.NotificationActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> com.todoroo.astrid.activity.MainActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.reminders.SnoozeActivity
+org.tasks.notifications.NotificationManager -> org.tasks.notifications.NotificationClearedReceiver
+
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.timers.TimerPlugin -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.timers.TimerPlugin -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.injection.InjectingPreferenceFragment -> interICC_android.intent.action.VIEW, 
+
+org.tasks.location.LocationPickerActivity -> org.tasks.activities.PlaceSettingsActivity
+
+org.tasks.sync.microsoft.MicrosoftListSettingsActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.sync.microsoft.MicrosoftListSettingsActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.preferences.fragments.Notifications -> interICC_android.speech.tts.engine.INSTALL_TTS_DATA, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.intent.action.RINGTONE_PICKER, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.intent.action.MAIN, android.intent.category.HOME
+org.tasks.preferences.fragments.Notifications -> interICC_android.speech.tts.engine.CHECK_TTS_DATA, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.intent.action.RINGTONE_PICKER, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.settings.CHANNEL_NOTIFICATION_SETTINGS, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.Notifications -> interICC_android.intent.action.RINGTONE_PICKER, 
+
+org.tasks.preferences.Device -> interICC_android.speech.action.RECOGNIZE_SPEECH, 
+
+org.tasks.dashclock.Hilt_DashClockSettings -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> org.tasks.reminders.NotificationActivity
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> org.tasks.reminders.SnoozeActivity
+org.tasks.Notifier -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> org.tasks.auth.MicrosoftAuthenticationActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> org.tasks.auth.MicrosoftAuthenticationActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> org.tasks.auth.MicrosoftAuthenticationActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.sync.microsoft.MicrosoftSignInViewModel -> org.tasks.auth.MicrosoftAuthenticationActivity
+
+org.tasks.preferences.fragments.TaskEditPreferences -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_TasksAccount -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.Hilt_TasksAccount -> org.tasks.billing.PurchaseActivity
+
+org.tasks.preferences.Hilt_HelpAndFeedback -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.data.Location -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.MainPreferences -> org.tasks.preferences.fragments.TasksAccount
+org.tasks.preferences.MainPreferences -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.locale.receiver.TaskerIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.locale.receiver.TaskerIntentService -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.Hilt_Backups -> interICC_android.intent.action.VIEW, 
+
+org.tasks.dialogs.ColorPalettePicker -> org.tasks.billing.PurchaseActivity
+
+org.tasks.preferences.fragments.Hilt_LookAndFeel -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Backups -> org.tasks.drive.DriveLoginActivity
+org.tasks.preferences.fragments.Backups -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+org.tasks.preferences.fragments.Backups -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.Backups -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+org.tasks.preferences.fragments.Backups -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+org.tasks.preferences.fragments.Backups -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.NotificationActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+org.tasks.ui.TaskEditViewModel -> org.tasks.reminders.SnoozeActivity
+
+org.tasks.preferences.Hilt_NotificationPreferences -> org.tasks.preferences.HelpAndFeedback
+
+com.todoroo.astrid.activity.ShareLinkActivity -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.ShareLinkActivity -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.caldav.CaldavAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+org.tasks.caldav.CaldavAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+
+org.tasks.caldav.Hilt_CaldavAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.caldav.Hilt_CaldavAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.TaskDefaults -> org.tasks.location.LocationPickerActivity
+org.tasks.preferences.fragments.TaskDefaults -> org.tasks.tags.TagPickerActivity
+org.tasks.preferences.fragments.TaskDefaults -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.DateAndTime -> interICC_android.intent.action.VIEW, 
+
+org.tasks.widget.Hilt_WidgetConfigActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.preferences.fragments.Hilt_TaskEditPreferences -> interICC_android.intent.action.VIEW, 
+
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.NotificationActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.reminders.SnoozeActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+org.tasks.opentasks.OpenTasksSynchronizer -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.NotificationActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.SyncWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.SyncWork -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.NotificationActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> org.tasks.reminders.SnoozeActivity
+org.tasks.location.AndroidGeofenceTransitionIntentService -> com.todoroo.astrid.activity.MainActivity
+
+com.todoroo.astrid.files.FilesControlSet -> interICC_android.intent.action.VIEW, 
+
+org.tasks.dialogs.IconPickerDialog -> org.tasks.billing.PurchaseActivity
+
+org.tasks.extensions.Fragment -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.HelpAndFeedback -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.LocalBroadcastManager -> org.tasks.widget.TasksWidget
+
+org.tasks.preferences.fragments.Hilt_MicrosoftAccount -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.Hilt_MicrosoftAccount -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.NotificationPreferences -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.locale.ui.activity.Hilt_TaskerSettingsActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.locale.ui.activity.TaskerCreateTaskActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.locale.ui.activity.TaskerCreateTaskActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.Tasks -> org.tasks.widget.TasksWidget
+
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.dao.TaskDao -> org.tasks.notifications.NotificationClearedReceiver
+
+at.bitfire.cert4android.CustomCertManager -> at.bitfire.cert4android.CustomCertService
+at.bitfire.cert4android.CustomCertManager -> at.bitfire.cert4android.CustomCertService
+
+org.tasks.activities.CameraActivity -> interICC_android.media.action.IMAGE_CAPTURE, 
+
+org.tasks.preferences.fragments.Hilt_Advanced -> interICC_android.intent.action.VIEW, 
+
+org.tasks.receivers.ShortcutBadger -> interICC_android.intent.action.MAIN, android.intent.category.HOME
+
+org.tasks.sync.microsoft.MicrosoftListSettingsActivityViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.sync.microsoft.MicrosoftListSettingsActivityViewModel -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.widget.AppWidgetManager -> org.tasks.widget.TasksWidget
+
+org.tasks.locale.ui.activity.AbstractFragmentPluginPreference -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.preferences.fragments.Hilt_ScrollableWidget -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_DateAndTime -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_GoogleTasksAccount -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.Hilt_GoogleTasksAccount -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_MainSettingsFragment -> interICC_android.intent.action.VIEW, 
+
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> interICC_android.speech.action.RECOGNIZE_SPEECH, 
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> interICC_android.speech.action.RECOGNIZE_SPEECH, 
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> interICC_android.intent.action.VIEW, 
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.activity.TaskListFragment -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.activity.TaskListFragment -> org.tasks.receivers.CompleteTaskReceiver
+
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.provider.MediaStore.RECORD_SOUND, 
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.intent.action.PICK, 
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.intent.action.VIEW, 
+org.tasks.dialogs.AddAttachmentDialog -> org.tasks.activities.CameraActivity
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+org.tasks.dialogs.AddAttachmentDialog -> interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+
+org.tasks.ui.LocationControlSet -> interICC_android.intent.action.VIEW, 
+org.tasks.ui.LocationControlSet -> interICC_android.intent.action.DIAL, 
+org.tasks.ui.LocationControlSet -> org.tasks.location.LocationPickerActivity
+org.tasks.ui.LocationControlSet -> org.tasks.location.LocationPickerActivity
+
+org.tasks.ui.CalendarControlSet -> interICC_android.intent.action.VIEW, 
+
+org.tasks.auth.SignInActivity -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.auth.SignInActivity -> interICC_android.intent.action.VIEW, 
+org.tasks.auth.SignInActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.SignInActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.auth.SignInActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.SignInActivity -> net.openid.appauth.AuthorizationManagementActivity
+org.tasks.auth.SignInActivity -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.opentasks.OpenTaskAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+org.tasks.opentasks.OpenTaskAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+
+org.tasks.opentasks.Hilt_OpenTaskAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+org.tasks.opentasks.Hilt_OpenTaskAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+
+org.dmfs.provider.tasks.TaskProvider -> interICC_org.dmfs.tasks.action.STALE_LIST_BROADCAST, 
+org.dmfs.provider.tasks.TaskProvider -> interICC_org.dmfs.tasks.action.STALE_LIST_BROADCAST, 
+org.dmfs.provider.tasks.TaskProvider -> interICC_org.dmfs.tasks.DATABASE_INITIALIZED, 
+
+org.tasks.extensions.Context -> interICC_android.intent.action.VIEW, 
+
+org.tasks.ui.NavigationDrawerFragment -> org.tasks.billing.PurchaseActivity
+org.tasks.ui.NavigationDrawerFragment -> interICC_android.intent.action.VIEW, 
+org.tasks.ui.NavigationDrawerFragment -> com.todoroo.astrid.activity.MainActivity
+org.tasks.ui.NavigationDrawerFragment -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.preferences.fragments.MicrosoftAccount -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.MicrosoftAccount -> interICC_android.intent.action.VIEW, 
+
+org.tasks.widget.WidgetClickActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.WidgetClickActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.WidgetClickActivity -> com.todoroo.astrid.activity.MainActivity
+org.tasks.widget.WidgetClickActivity -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.jobs.WorkManagerImpl -> org.tasks.jobs.NotificationService
+org.tasks.jobs.WorkManagerImpl -> org.tasks.jobs.NotificationService
+org.tasks.jobs.WorkManagerImpl -> org.tasks.jobs.NotificationService
+
+org.tasks.preferences.fragments.ScrollableWidget -> org.tasks.dialogs.SortSettingsActivity
+org.tasks.preferences.fragments.ScrollableWidget -> org.tasks.widget.TasksWidget
+org.tasks.preferences.fragments.ScrollableWidget -> org.tasks.dialogs.SortSettingsActivity
+org.tasks.preferences.fragments.ScrollableWidget -> interICC_android.intent.action.VIEW, 
+
+org.tasks.fragments.CommentBarFragment -> org.tasks.activities.CameraActivity
+
+org.tasks.filters.PlaceFilter -> interICC_android.intent.action.VIEW, 
+
+org.tasks.auth.DebugConnectionBuilder -> at.bitfire.cert4android.CustomCertService
+
+org.tasks.preferences.fragments.Hilt_Widgets -> interICC_android.intent.action.VIEW, 
+
+org.tasks.sync.AddAccountDialog -> interICC_android.intent.action.VIEW, 
+
+org.tasks.auth.AuthorizationService -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.AuthorizationService -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.auth.AuthorizationService -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.dialogs.Linkify -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.Hilt_Notifications -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.Hilt_ManageSpaceActivity -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.widget.ScrollableViewsFactory -> org.tasks.widget.TasksWidget
+
+org.tasks.preferences.fragments.LookAndFeel -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.LookAndFeel -> org.tasks.billing.PurchaseActivity
+org.tasks.preferences.fragments.LookAndFeel -> interICC_android.intent.action.VIEW, 
+
+org.tasks.receivers.RefreshReceiver -> interICC_android.intent.action.MAIN, android.intent.category.HOME
+
+org.tasks.http.HttpClientFactory -> at.bitfire.cert4android.CustomCertService
+org.tasks.http.HttpClientFactory -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+org.tasks.http.HttpClientFactory -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.NotificationActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.CleanupWork -> org.tasks.receivers.CompleteTaskReceiver
+
+net.openid.appauth.browser.BrowserSelector -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+net.openid.appauth.browser.BrowserSelector -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+
+org.tasks.widget.WidgetFilterSelectionActivity -> org.tasks.widget.TasksWidget
+
+net.openid.appauth.AuthorizationService -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> interICC_android.intent.action.VIEW, android.intent.category.BROWSABLE
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+net.openid.appauth.AuthorizationService -> net.openid.appauth.AuthorizationManagementActivity
+
+com.todoroo.astrid.tags.TagsControlSet -> org.tasks.tags.TagPickerActivity
+
+org.tasks.preferences.fragments.BaseAccountPreference -> interICC_android.intent.action.VIEW, 
+org.tasks.preferences.fragments.BaseAccountPreference -> org.tasks.billing.PurchaseActivity
+
+org.tasks.preferences.BasePreferences -> org.tasks.preferences.HelpAndFeedback
+
+org.tasks.etesync.EteSyncAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.etesync.EteSyncAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.location.LocationPermissionDialog -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, android.intent.category.DEFAULT
+
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.receivers.CompleteTaskReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.NotificationActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.notifications.NotificationClearedReceiver
+com.todoroo.astrid.alarms.AlarmService -> org.tasks.reminders.SnoozeActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+com.todoroo.astrid.alarms.AlarmService -> com.todoroo.astrid.activity.MainActivity
+
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.NotificationActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> com.todoroo.astrid.activity.MainActivity
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+org.tasks.jobs.NotificationService -> org.tasks.receivers.CompleteTaskReceiver
+org.tasks.jobs.NotificationService -> org.tasks.reminders.SnoozeActivity
+org.tasks.jobs.NotificationService -> org.tasks.notifications.NotificationClearedReceiver
+
+org.tasks.compose.PurchaseText -> interICC_android.intent.action.VIEW, 
+
+org.tasks.dialogs.ColorWheelPicker -> org.tasks.billing.PurchaseActivity
+
+org.tasks.preferences.fragments.Hilt_DashClock -> interICC_android.intent.action.VIEW, 
+
+org.tasks.etebase.Hilt_EtebaseAccountSettingsActivity -> org.tasks.billing.PurchaseActivity
+org.tasks.etebase.Hilt_EtebaseAccountSettingsActivity -> interICC_android.intent.action.VIEW, 
+
+org.tasks.preferences.fragments.TaskListPreferences -> interICC_android.intent.action.VIEW, 
+
