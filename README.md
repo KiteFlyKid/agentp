@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Agent+P Overview](agentpOverview.png)
+![Agent+P Overview](Overview.png)
 
 **A novel agentic framework that leverages symbolic planning to guide LLM-based UI automation agents**
 
